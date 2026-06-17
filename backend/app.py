@@ -28,9 +28,9 @@ init_db(app)
 # ─── CLI: Init DB on startup (for Render deployment) ──────────────
 with app.app_context():
     db.create_all()
-    from load_content import load_all_content
+    from load_content import load_japanese_phrases
     try:
-        load_all_content()
+        load_japanese_phrases(db, Phrase)
         print("Content loaded OK")
     except Exception as e:
         print(f"Content load: {e}")
