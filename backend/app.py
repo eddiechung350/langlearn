@@ -18,12 +18,22 @@ from auth import hash_password, verify_password, create_token, token_required
 from sm2 import sm2_next_review, quality_from_rating, get_phrases_due_for_review
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///langlearn.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////opt/data/langlearn.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'langlearn-secret-key-2024'
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'langlearn-secret-key-2024')
 
 CORS(app)
 init_db(app)
+
+# ─── CLI: Init DB on startup (for Render deployment) ──────────────
+with app.app_context():
+    db.create_all()
+    from load_content import load_all_content
+    try:
+        load_all_content()
+        print("Content loaded OK")
+    except Exception as e:
+        print(f"Content load: {e}")
 
 # ─── Auth Routes ────────────────────────────────────────────────
 

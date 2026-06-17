@@ -1,0 +1,47 @@
+# render.yaml - LangLearn Deployment Blueprint
+# Connect this file to Render.com via Settings → Blueprints
+
+services:
+  # ── Backend: Flask API ──────────────────────────────────────────
+  - type: web
+    name: langlearn-backend
+    env: python
+    region: oregon
+    plan: free
+    repo: https://github.com/eddiechung350/langlearn
+    branch: master
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1
+    healthCheckPath: /api/health
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: "3.11"
+
+  # ── Frontend: React Static Site ────────────────────────────────
+  - type: web
+    name: langlearn-frontend
+    env: static
+    region: oregon
+    plan: free
+    repo: https://github.com/eddiechung350/langlearn
+    branch: master
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: langlearn-backend
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: PYTHON_VERSION
+        value: "3.11"
