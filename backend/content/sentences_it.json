@@ -1,0 +1,1780 @@
+{
+  "language": "it",
+  "name": "Italiano",
+  "name_en": "Italian",
+  "flag": "🇮🇹",
+  "voice": "it-IT-ElsaNeural",
+  "days": [
+    {
+      "day": 1,
+      "scene": "airport",
+      "scene_name": "✈️ Aeroporto",
+      "phrases": [
+        {
+          "id": "it_d01s01",
+          "difficulty": 1,
+          "japanese": "Buongiorno, il passaporto per favore",
+          "romaji": "Bwon-zhor-no eel pa-sa-por-to pair fvo-re",
+          "chinese": "你好，請給我護照",
+          "keywords": [
+            "buongiorno",
+            "passaporto"
+          ],
+          "grammar_note": "per favore = please",
+          "native_response": {
+            "japanese": "Sì, eccolo",
+            "romaji": "See ek-ko-lo",
+            "chinese": "好的，給您"
+          }
+        },
+        {
+          "id": "it_d01s02",
+          "difficulty": 1,
+          "japanese": "Sì, sono io",
+          "romaji": "See so-no ee-o",
+          "chinese": "是的，是我",
+          "keywords": [
+            "sì",
+            "io"
+          ],
+          "grammar_note": "sono = I am",
+          "native_response": {
+            "japanese": "Grazie mille",
+            "romaji": "Grah-tsee-ye mee-lay",
+            "chinese": "非常感謝"
+          }
+        },
+        {
+          "id": "it_d01s03",
+          "difficulty": 2,
+          "japanese": "Dov'è l'uscita?",
+          "romaji": "Do-ve loo-shee-ta",
+          "chinese": "出口在哪裡？",
+          "keywords": [
+            "uscita",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "Sempre dritto",
+            "romaji": "Sem-pray dree-to",
+            "chinese": "直走"
+          }
+        },
+        {
+          "id": "it_d01s04",
+          "difficulty": 2,
+          "japanese": "Dove posso ritirare i bagagli?",
+          "romaji": "Do-vey pos-so ree-tee-ra-rey ee ba-ga-lee",
+          "chinese": "我在哪裡取行李？",
+          "keywords": [
+            "bagagli",
+            "ritirare"
+          ],
+          "grammar_note": "dove = where",
+          "native_response": {
+            "japanese": "In fondo al corridoio",
+            "romaji": "In fon-do al ko-ree-do-yo",
+            "chinese": "在走廊盡頭"
+          }
+        },
+        {
+          "id": "it_d01s05",
+          "difficulty": 2,
+          "japanese": "Non parlo italiano",
+          "romaji": "Non par-lo ee-ta-lee-a-no",
+          "chinese": "我不會說意大利語",
+          "keywords": [
+            "parlo",
+            "italiano"
+          ],
+          "grammar_note": "non = not",
+          "native_response": {
+            "japanese": "Parla inglese?",
+            "romaji": "Par-la een-glay-zey",
+            "chinese": "你會說英語嗎？"
+          }
+        },
+        {
+          "id": "it_d01s06",
+          "difficulty": 1,
+          "japanese": "Grazie mille",
+          "romaji": "Grah-tsee-ye mee-lay",
+          "chinese": "非常感謝",
+          "keywords": [
+            "grazie",
+            "mille"
+          ],
+          "grammar_note": "mille = a thousand",
+          "native_response": {
+            "japanese": "Prego",
+            "romaji": "Pre-go",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "it_d01s07",
+          "difficulty": 2,
+          "japanese": "Sono un turista",
+          "romaji": "So-no oon too-ree-sta",
+          "chinese": "我是遊客",
+          "keywords": [
+            "turista",
+            "sono"
+          ],
+          "grammar_note": "sono = I am",
+          "native_response": {
+            "japanese": "Benvenuto!",
+            "romaji": "Ben-ve-noo-to",
+            "chinese": "歡迎！"
+          }
+        },
+        {
+          "id": "it_d01s08",
+          "difficulty": 2,
+          "japanese": "A che ora è il mio volo?",
+          "romaji": "A kay o-ra e eel mee-o vo-lo",
+          "chinese": "我的航班幾點？",
+          "keywords": [
+            "ora",
+            "volo"
+          ],
+          "grammar_note": "a = at",
+          "native_response": {
+            "japanese": "Alle 15:30",
+            "romaji": "A-lay kween-zawn-ta",
+            "chinese": "15:30"
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "scene": "hotel",
+      "scene_name": "🏨 Hotel",
+      "phrases": [
+        {
+          "id": "it_d02s01",
+          "difficulty": 1,
+          "japanese": "Ho una prenotazione",
+          "romaji": "O oo-na pre-no-ta-tsee-o-ney",
+          "chinese": "我有預約",
+          "keywords": [
+            "prenotazione",
+            "ho"
+          ],
+          "grammar_note": "ho = I have",
+          "native_response": {
+            "japanese": "Il suo nome, per favore?",
+            "romaji": "Eel soo-o no-may pair fvo-rey",
+            "chinese": "請問您貴姓？"
+          }
+        },
+        {
+          "id": "it_d02s02",
+          "difficulty": 1,
+          "japanese": "Vorrei fare il check-in",
+          "romaji": "Vo-rrey fa-rey eel shek in",
+          "chinese": "我想辦理入住",
+          "keywords": [
+            "check-in",
+            "vorrei"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Il passaporto, per favore",
+            "romaji": "Eel pa-sa-por-to pair fvo-rey",
+            "chinese": "請給我護照"
+          }
+        },
+        {
+          "id": "it_d02s03",
+          "difficulty": 2,
+          "japanese": "Dov'è l'ascensore?",
+          "romaji": "Do-ve la-shen-so-rey",
+          "chinese": "電梯在哪裡？",
+          "keywords": [
+            "ascensore",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "In fondo al corridoio",
+            "romaji": "In fon-do al ko-ree-do-yo",
+            "chinese": "在走廊盡頭"
+          }
+        },
+        {
+          "id": "it_d02s04",
+          "difficulty": 2,
+          "japanese": "A che ora è la colazione?",
+          "romaji": "A kay o-ra e la ko-la-tsee-o-ney",
+          "chinese": "早餐幾點？",
+          "keywords": [
+            "colazione",
+            "ora"
+          ],
+          "grammar_note": "a = at",
+          "native_response": {
+            "japanese": "Dalle 7 alle 10",
+            "romaji": "Da-lay set a-lay dee-ee",
+            "chinese": "7點到10點"
+          }
+        },
+        {
+          "id": "it_d02s05",
+          "difficulty": 2,
+          "japanese": "La password del Wi-Fi?",
+          "romaji": "La pas-word del wee-fee",
+          "chinese": "Wi-Fi 密碼？",
+          "keywords": [
+            "password",
+            "Wi-Fi"
+          ],
+          "grammar_note": "del = of the",
+          "native_response": {
+            "japanese": "È: hotel2024",
+            "romaji": "E o-tel too-meel-kwa-tor-din",
+            "chinese": "是：hotel2024"
+          }
+        },
+        {
+          "id": "it_d02s06",
+          "difficulty": 2,
+          "japanese": "La chiave della mia camera",
+          "romaji": "La kee-a-vey del-la mee-a ka-ma-ra",
+          "chinese": "請給我房間鑰匙",
+          "keywords": [
+            "chiave",
+            "camera"
+          ],
+          "grammar_note": "della = of the",
+          "native_response": {
+            "japanese": "Ecco, camera 305",
+            "romaji": "Ek-ko ka-ma-ra trey-zhen-to seen-ko",
+            "chinese": "給您，305號房"
+          }
+        },
+        {
+          "id": "it_d02s07",
+          "difficulty": 2,
+          "japanese": "A che ora è il check-out?",
+          "romaji": "A kay o-ra e eel shek out",
+          "chinese": "退房時間幾點？",
+          "keywords": [
+            "check-out",
+            "ora"
+          ],
+          "grammar_note": "a = at",
+          "native_response": {
+            "japanese": "Entro le 11",
+            "romaji": "En-tro lay oon-dee-chee",
+            "chinese": "11點前"
+          }
+        },
+        {
+          "id": "it_d02s08",
+          "difficulty": 1,
+          "japanese": "Grazie mille",
+          "romaji": "Grah-tsee-ye mee-lay",
+          "chinese": "非常感謝",
+          "keywords": [
+            "grazie",
+            "mille"
+          ],
+          "grammar_note": "mille = a thousand",
+          "native_response": {
+            "japanese": "Prego",
+            "romaji": "Pre-go",
+            "chinese": "不客氣"
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "scene": "restaurant",
+      "scene_name": "🍝 Ristorante",
+      "phrases": [
+        {
+          "id": "it_d03s01",
+          "difficulty": 1,
+          "japanese": "Un tavolo per due, per favore",
+          "romaji": "Oon ta-vo-lo pair doo-ey pair fvo-rey",
+          "chinese": "請給我兩位",
+          "keywords": [
+            "tavolo",
+            "due"
+          ],
+          "grammar_note": "per = for",
+          "native_response": {
+            "japanese": "Prego, da questa parte",
+            "romaji": "Pre-go da kwes-ta par-tay",
+            "chinese": "請跟我來"
+          }
+        },
+        {
+          "id": "it_d03s02",
+          "difficulty": 1,
+          "japanese": "Vorrei ordinare",
+          "romaji": "Vo-rrey or-dee-na-rey",
+          "chinese": "我想點餐",
+          "keywords": [
+            "ordinare",
+            "vorrei"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Cosa desidera?",
+            "romaji": "Ko-za de-ze-de-ra",
+            "chinese": "請問想要什麼？"
+          }
+        },
+        {
+          "id": "it_d03s03",
+          "difficulty": 1,
+          "japanese": "Il conto, per favore",
+          "romaji": "Eel kon-to pair fvo-rey",
+          "chinese": "請結帳",
+          "keywords": [
+            "conto"
+          ],
+          "grammar_note": "per favore = please",
+          "native_response": {
+            "japanese": "Ecco, 45 euro",
+            "romaji": "Ek-ko kwa-ran-ta seen-ko e-oo-ro",
+            "chinese": "好的，45歐元"
+          }
+        },
+        {
+          "id": "it_d03s04",
+          "difficulty": 1,
+          "japanese": "È delizioso!",
+          "romaji": "E de-lee-tsee-o-zo",
+          "chinese": "很好吃！",
+          "keywords": [
+            "delizioso"
+          ],
+          "grammar_note": "è = is",
+          "native_response": {
+            "japanese": "Grazie, sono contenta",
+            "romaji": "Grah-tsee-ye so-no kon-ten-ta",
+            "chinese": "謝謝誇獎"
+          }
+        },
+        {
+          "id": "it_d03s05",
+          "difficulty": 1,
+          "japanese": "Acqua, per favore",
+          "romaji": "A-kwa pair fvo-rey",
+          "chinese": "請給我水",
+          "keywords": [
+            "acqua"
+          ],
+          "grammar_note": "per favore = please",
+          "native_response": {
+            "japanese": "Subito",
+            "romaji": "Soo-bee-to",
+            "chinese": "立刻"
+          }
+        },
+        {
+          "id": "it_d03s06",
+          "difficulty": 2,
+          "japanese": "Avete un menu in inglese?",
+          "romaji": "A-ve-tey oon me-noo in een-glay-zey",
+          "chinese": "有英文菜單嗎？",
+          "keywords": [
+            "menu",
+            "inglese"
+          ],
+          "grammar_note": "in = in",
+          "native_response": {
+            "japanese": "Sì, certo",
+            "romaji": "See chehr-to",
+            "chinese": "有的"
+          }
+        },
+        {
+          "id": "it_d03s07",
+          "difficulty": 2,
+          "japanese": "Sono allergico a...",
+          "romaji": "So-no a-ler-zhee-ko a",
+          "chinese": "我對...過敏",
+          "keywords": [
+            "allergico"
+          ],
+          "grammar_note": "a = to",
+          "native_response": {
+            "japanese": "Informo lo chef",
+            "romaji": "Een-for-mo lo shef",
+            "chinese": "我通知廚師"
+          }
+        },
+        {
+          "id": "it_d03s08",
+          "difficulty": 1,
+          "japanese": "Grazie, arrivederci",
+          "romaji": "Grah-tsee-ye a-ree-ve-dehr-chee",
+          "chinese": "謝謝，再見",
+          "keywords": [
+            "arrivederci"
+          ],
+          "grammar_note": "arrivederci = goodbye",
+          "native_response": {
+            "japanese": "Arrivederci!",
+            "romaji": "A-ree-ve-dehr-chee",
+            "chinese": "再見！"
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "scene": "transport",
+      "scene_name": "🚇 Trasporti",
+      "phrases": [
+        {
+          "id": "it_d04s01",
+          "difficulty": 2,
+          "japanese": "Dov'è la stazione?",
+          "romaji": "Do-ve la sta-tsee-o-ney",
+          "chinese": "火車站在哪裡？",
+          "keywords": [
+            "stazione",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "Sempre dritto, a 500 metri",
+            "romaji": "Sem-pray dree-to a seen-ko me-tree",
+            "chinese": "直走500米"
+          }
+        },
+        {
+          "id": "it_d04s02",
+          "difficulty": 2,
+          "japanese": "Un biglietto per Roma, per favore",
+          "romaji": "Oon bee-lye-to pair Ro-ma pair fvo-rey",
+          "chinese": "請給我一張去羅馬的票",
+          "keywords": [
+            "biglietto",
+            "per"
+          ],
+          "grammar_note": "per = for",
+          "native_response": {
+            "japanese": "Solo andata o andata e ritorno?",
+            "romaji": "So-lo an-da-ta o an-da-ta ay ree-tor-no",
+            "chinese": "單程還是來回？"
+          }
+        },
+        {
+          "id": "it_d04s03",
+          "difficulty": 1,
+          "japanese": "Grazie mille",
+          "romaji": "Grah-tsee-ye mee-lay",
+          "chinese": "非常感謝",
+          "keywords": [
+            "grazie",
+            "mille"
+          ],
+          "grammar_note": "mille = a thousand",
+          "native_response": {
+            "japanese": "Prego",
+            "romaji": "Pre-go",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "it_d04s04",
+          "difficulty": 2,
+          "japanese": "Questo treno dove va?",
+          "romaji": "Kwes-to tre-no Do-vey va",
+          "chinese": "這列車去哪裡？",
+          "keywords": [
+            "treno",
+            "va"
+          ],
+          "grammar_note": "va = goes",
+          "native_response": {
+            "japanese": "Va a Firenze",
+            "romaji": "Va a fee-ren-tsey",
+            "chinese": "去佛羅倫斯"
+          }
+        },
+        {
+          "id": "it_d04s05",
+          "difficulty": 2,
+          "japanese": "A che binario?",
+          "romaji": "A kay bee-na-ree-o",
+          "chinese": "在哪個月台？",
+          "keywords": [
+            "binario"
+          ],
+          "grammar_note": "a = at",
+          "native_response": {
+            "japanese": "Binario 4",
+            "romaji": "Bee-na-ree-o kwa-tro",
+            "chinese": "4號月台"
+          }
+        },
+        {
+          "id": "it_d04s06",
+          "difficulty": 2,
+          "japanese": "È lontano da qui?",
+          "romaji": "E lon-ta-no da kwee",
+          "chinese": "離這裡遠嗎？",
+          "keywords": [
+            "lontano",
+            "qui"
+          ],
+          "grammar_note": "da = from",
+          "native_response": {
+            "japanese": "No, è vicino",
+            "romaji": "No e vee-chee-no",
+            "chinese": "不遠"
+          }
+        },
+        {
+          "id": "it_d04s07",
+          "difficulty": 1,
+          "japanese": "Mi scusi",
+          "romaji": "Mee skoo-zee",
+          "chinese": "不好意思",
+          "keywords": [
+            "scusi"
+          ],
+          "grammar_note": "scusi = excuse me",
+          "native_response": {
+            "japanese": "Sì?",
+            "romaji": "See",
+            "chinese": "什麼事？"
+          }
+        },
+        {
+          "id": "it_d04s08",
+          "difficulty": 2,
+          "japanese": "Vorrei un taxi",
+          "romaji": "Vo-rrey oon tak-see",
+          "chinese": "我想要一輛的士",
+          "keywords": [
+            "taxi",
+            "vorrei"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Chiamo subito",
+            "romaji": "Kee-a-mo soo-bee-to",
+            "chinese": "我立刻叫"
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "scene": "taxi",
+      "scene_name": "🚕 Taxi",
+      "phrases": [
+        {
+          "id": "it_d05s01",
+          "difficulty": 1,
+          "japanese": "Mi porti a questo indirizzo",
+          "romaji": "Mee por-tee a kwes-to een-dee-ree-tso",
+          "chinese": "請到這個地址",
+          "keywords": [
+            "indirizzo",
+            "porti"
+          ],
+          "grammar_note": "a = to",
+          "native_response": {
+            "japanese": "Sì, prego, si accomodi",
+            "romaji": "See pre-go see a-ko-mo-dee",
+            "chinese": "好的，請上車"
+          }
+        },
+        {
+          "id": "it_d05s02",
+          "difficulty": 1,
+          "japanese": "Si fermi qui, per favore",
+          "romaji": "See fehr-mee kwee pair fvo-rey",
+          "chinese": "請在這裡停",
+          "keywords": [
+            "fermi",
+            "qui"
+          ],
+          "grammar_note": "si = reflexive",
+          "native_response": {
+            "japanese": "Va bene",
+            "romaji": "Va be-ney",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "it_d05s03",
+          "difficulty": 2,
+          "japanese": "Quanto costa?",
+          "romaji": "Kwan-to kos-ta",
+          "chinese": "多少錢？",
+          "keywords": [
+            "costa",
+            "quanto"
+          ],
+          "grammar_note": "quanto = how much",
+          "native_response": {
+            "japanese": "32 euro",
+            "romaji": "Tren-ta-do-dee e-oo-ro",
+            "chinese": "32歐元"
+          }
+        },
+        {
+          "id": "it_d05s04",
+          "difficulty": 1,
+          "japanese": "Grazie mille",
+          "romaji": "Grah-tsee-ye mee-lay",
+          "chinese": "非常感謝",
+          "keywords": [
+            "grazie",
+            "mille"
+          ],
+          "grammar_note": "mille = a thousand",
+          "native_response": {
+            "japanese": "Prego",
+            "romaji": "Pre-go",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "it_d05s05",
+          "difficulty": 2,
+          "japanese": "Ha il resto?",
+          "romaji": "A eel res-to",
+          "chinese": "你有零錢嗎？",
+          "keywords": [
+            "resto"
+          ],
+          "grammar_note": "ha = have",
+          "native_response": {
+            "japanese": "Sì, ecco 8 euro",
+            "romaji": "See ek-ko ot-to e-oo-ro",
+            "chinese": "有的，這是8歐元"
+          }
+        },
+        {
+          "id": "it_d05s06",
+          "difficulty": 2,
+          "japanese": "La ricevuta, per favore",
+          "romaji": "La ree-che-voo-ta pair fvo-rey",
+          "chinese": "請給我收據",
+          "keywords": [
+            "ricevuta"
+          ],
+          "grammar_note": "per favore = please",
+          "native_response": {
+            "japanese": "Ecco",
+            "romaji": "Ek-ko",
+            "chinese": "給您"
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "scene": "shopping",
+      "scene_name": "🛍️ Shopping",
+      "phrases": [
+        {
+          "id": "it_d06s01",
+          "difficulty": 1,
+          "japanese": "Quanto costa?",
+          "romaji": "Kwan-to kos-ta",
+          "chinese": "多少錢？",
+          "keywords": [
+            "costa",
+            "quanto"
+          ],
+          "grammar_note": "quanto = how much",
+          "native_response": {
+            "japanese": "25 euro",
+            "romaji": "Veen-tee-see-nay-ko e-oo-ro",
+            "chinese": "25歐元"
+          }
+        },
+        {
+          "id": "it_d06s02",
+          "difficulty": 2,
+          "japanese": "Posso provarlo?",
+          "romaji": "Pos-so pro-var-lo",
+          "chinese": "我可以試穿這個嗎？",
+          "keywords": [
+            "provare",
+            "posso"
+          ],
+          "grammar_note": "posso = I can",
+          "native_response": {
+            "japanese": "Certo, il camerino è là",
+            "romaji": "Chehr-to eel ka-me-ree-no e la",
+            "chinese": "當然可以，更衣室在那边"
+          }
+        },
+        {
+          "id": "it_d06s03",
+          "difficulty": 2,
+          "japanese": "Ce l'ha in taglia M?",
+          "romaji": "Che la in ta-lee-a em",
+          "chinese": "有M碼嗎？",
+          "keywords": [
+            "taglia",
+            "ha"
+          ],
+          "grammar_note": "ha = have",
+          "native_response": {
+            "japanese": "Sì, un momento",
+            "romaji": "See oon mo-men-to",
+            "chinese": "有的，請稍等"
+          }
+        },
+        {
+          "id": "it_d06s04",
+          "difficulty": 1,
+          "japanese": "Lo prendo",
+          "romaji": "Lo pren-do",
+          "chinese": "我要這個",
+          "keywords": [
+            "prendo"
+          ],
+          "grammar_note": "prendo = I take",
+          "native_response": {
+            "japanese": "Come paga?",
+            "romaji": "Ko-may pa-ga",
+            "chinese": "您怎麼付款？"
+          }
+        },
+        {
+          "id": "it_d06s05",
+          "difficulty": 2,
+          "japanese": "Posso pagare con carta?",
+          "romaji": "Pos-so pa-ga-rey kon kar-ta",
+          "chinese": "可以刷卡嗎？",
+          "keywords": [
+            "carta",
+            "pagare"
+          ],
+          "grammar_note": "con = with",
+          "native_response": {
+            "japanese": "Certo",
+            "romaji": "Chehr-to",
+            "chinese": "當然可以"
+          }
+        },
+        {
+          "id": "it_d06s06",
+          "difficulty": 2,
+          "japanese": "È troppo caro",
+          "romaji": "E trop-po ka-ro",
+          "chinese": "太貴了",
+          "keywords": [
+            "caro",
+            "troppo"
+          ],
+          "grammar_note": "troppo = too",
+          "native_response": {
+            "japanese": "Posso farle uno sconto?",
+            "romaji": "Pos-so far-lay oo-no skon-to",
+            "chinese": "我可以給您折扣嗎？"
+          }
+        },
+        {
+          "id": "it_d06s07",
+          "difficulty": 1,
+          "japanese": "Un sacchetto, per favore",
+          "romaji": "Oon sa-ke-to pair fvo-rey",
+          "chinese": "請給我袋子",
+          "keywords": [
+            "sacchetto"
+          ],
+          "grammar_note": "per favore = please",
+          "native_response": {
+            "japanese": "Ecco",
+            "romaji": "Ek-ko",
+            "chinese": "給您"
+          }
+        },
+        {
+          "id": "it_d06s08",
+          "difficulty": 2,
+          "japanese": "Vorrei un rimborso",
+          "romaji": "Vo-rrey oon reem-bor-so",
+          "chinese": "我想退貨",
+          "keywords": [
+            "rimborso"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Ha lo scontrino?",
+            "romaji": "A lo skon-tree-no",
+            "chinese": "您有收據嗎？"
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "scene": "directions",
+      "scene_name": "🧭 Direzioni",
+      "phrases": [
+        {
+          "id": "it_d07s01",
+          "difficulty": 1,
+          "japanese": "Scusi, dov'è...?",
+          "romaji": "Skoo-zee do-ve",
+          "chinese": "不好意思，...在哪裡？",
+          "keywords": [
+            "scusi",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "Sempre dritto",
+            "romaji": "Sem-pray dree-to",
+            "chinese": "直走"
+          }
+        },
+        {
+          "id": "it_d07s02",
+          "difficulty": 2,
+          "japanese": "È lontano?",
+          "romaji": "E lon-ta-no",
+          "chinese": "遠嗎？",
+          "keywords": [
+            "lontano"
+          ],
+          "grammar_note": "è = is",
+          "native_response": {
+            "japanese": "No, 10 minuti a piedi",
+            "romaji": "No dee-echee me-noo-tee a pyeh-dee",
+            "chinese": "不遠，走路10分鐘"
+          }
+        },
+        {
+          "id": "it_d07s03",
+          "difficulty": 1,
+          "japanese": "A sinistra",
+          "romaji": "A see-nee-stra",
+          "chinese": "左轉",
+          "keywords": [
+            "sinistra"
+          ],
+          "grammar_note": "a = to",
+          "native_response": {
+            "japanese": "Capito",
+            "romaji": "Ka-pee-to",
+            "chinese": "明白了"
+          }
+        },
+        {
+          "id": "it_d07s04",
+          "difficulty": 1,
+          "japanese": "A destra",
+          "romaji": "A des-tra",
+          "chinese": "右轉",
+          "keywords": [
+            "destra"
+          ],
+          "grammar_note": "a = to",
+          "native_response": {
+            "japanese": "D'accordo",
+            "romaji": "Da-ko-ro-do",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "it_d07s05",
+          "difficulty": 2,
+          "japanese": "Mi sono perso",
+          "romaji": "Mee so-no pehr-so",
+          "chinese": "我迷路了",
+          "keywords": [
+            "perso"
+          ],
+          "grammar_note": "mi = reflexive",
+          "native_response": {
+            "japanese": "Dove vuole andare?",
+            "romaji": "Do-vey vwo-lay an-da-rey",
+            "chinese": "你想去哪裡？"
+          }
+        },
+        {
+          "id": "it_d07s06",
+          "difficulty": 2,
+          "japanese": "Può aiutarmi?",
+          "romaji": "Pwo a-yoo-tar-mee",
+          "chinese": "你可以幫我嗎？",
+          "keywords": [
+            "aiutare",
+            "può"
+          ],
+          "grammar_note": "può = can",
+          "native_response": {
+            "japanese": "Certo, cosa posso fare?",
+            "romaji": "Chehr-to ko-za pos-so fa-rey",
+            "chinese": "當然，我可以做什麼？"
+          }
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "scene": "emergency",
+      "scene_name": "🚨 Emergenza",
+      "phrases": [
+        {
+          "id": "it_d08s01",
+          "difficulty": 1,
+          "japanese": "Aiuto!",
+          "romaji": "A-yoo-to",
+          "chinese": "救命！",
+          "keywords": [
+            "aiuto"
+          ],
+          "grammar_note": "aiuto = help",
+          "native_response": {
+            "japanese": "Cosa è successo?",
+            "romaji": "Ko-za e soo-ches-so",
+            "chinese": "發生什麼事？"
+          }
+        },
+        {
+          "id": "it_d08s02",
+          "difficulty": 2,
+          "japanese": "Chiami la polizia!",
+          "romaji": "Kee-a-mee la po-lee-tsee-a",
+          "chinese": "請報警！",
+          "keywords": [
+            "polizia",
+            "chiami"
+          ],
+          "grammar_note": "imperative",
+          "native_response": {
+            "japanese": "Chiamo subito",
+            "romaji": "Kee-a-mo soo-bee-to",
+            "chinese": "我立刻打"
+          }
+        },
+        {
+          "id": "it_d08s03",
+          "difficulty": 2,
+          "japanese": "Ho bisogno di un dottore",
+          "romaji": "O bee-zo-nyo dee oon dot-to-rey",
+          "chinese": "我需要醫生",
+          "keywords": [
+            "dottore",
+            "bisogno"
+          ],
+          "grammar_note": "ho = I have",
+          "native_response": {
+            "japanese": "L'ambulatorio è vicino",
+            "romaji": "Lam-boo-la-to-ree-o e vee-chee-no",
+            "chinese": "診所在附近"
+          }
+        },
+        {
+          "id": "it_d08s04",
+          "difficulty": 2,
+          "japanese": "Dov'è l'ospedale?",
+          "romaji": "Do-ve los-pe-da-le",
+          "chinese": "醫院在哪裡？",
+          "keywords": [
+            "ospedale",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "A 2 chilometri",
+            "romaji": "A do-e chee-lo-me-tree",
+            "chinese": "2公里外"
+          }
+        },
+        {
+          "id": "it_d08s05",
+          "difficulty": 2,
+          "japanese": "Ho perso il passaporto",
+          "romaji": "O pehr-so eel pa-sa-por-to",
+          "chinese": "我護照掉了",
+          "keywords": [
+            "perso",
+            "passaporto"
+          ],
+          "grammar_note": "ho = have",
+          "native_response": {
+            "japanese": "Contatti la sua ambasciata",
+            "romaji": "Kon-ta-tee la soo-a am-ba-sha-ta",
+            "chinese": "請聯絡大使館"
+          }
+        },
+        {
+          "id": "it_d08s06",
+          "difficulty": 2,
+          "japanese": "Mi hanno rubato il portafoglio",
+          "romaji": "Mee an-no roo-ba-to eel por-ta-fo-lee-o",
+          "chinese": "我的銀包被偷了",
+          "keywords": [
+            "rubato",
+            "portafoglio"
+          ],
+          "grammar_note": "hanno = have (they)",
+          "native_response": {
+            "japanese": "Denunci alla polizia",
+            "romaji": "De-noon-cha a-la po-lee-tsee-a",
+            "chinese": "需要報案"
+          }
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "scene": "cafe",
+      "scene_name": "☕ Bar",
+      "phrases": [
+        {
+          "id": "it_d09s01",
+          "difficulty": 1,
+          "japanese": "Un caffè, per favore",
+          "romaji": "Oon ka-fey pair fvo-rey",
+          "chinese": "請給我一杯咖啡",
+          "keywords": [
+            "caffè"
+          ],
+          "grammar_note": "un = a",
+          "native_response": {
+            "japanese": "Corretto o macchiato?",
+            "romaji": "Ko-re-to o ma-kya-to",
+            "chinese": "要黑咖啡還是拿鐵？"
+          }
+        },
+        {
+          "id": "it_d09s02",
+          "difficulty": 1,
+          "japanese": "Il conto, per favore",
+          "romaji": "Eel kon-to pair fvo-rey",
+          "chinese": "請結帳",
+          "keywords": [
+            "conto"
+          ],
+          "grammar_note": "per favore = please",
+          "native_response": {
+            "japanese": "Ecco, 5 euro",
+            "romaji": "Ek-ko seen-ko e-oo-ro",
+            "chinese": "好的，5歐元"
+          }
+        },
+        {
+          "id": "it_d09s03",
+          "difficulty": 2,
+          "japanese": "Vorrei un cornetto",
+          "romaji": "Vo-rrey oon kor-ne-to",
+          "chinese": "我想要一個牛角包",
+          "keywords": [
+            "cornetto",
+            "vorrei"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Con piacere",
+            "romaji": "Kon pee-a-che-rey",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "it_d09s04",
+          "difficulty": 1,
+          "japanese": "Grazie mille",
+          "romaji": "Grah-tsee-ye mee-lay",
+          "chinese": "非常感謝",
+          "keywords": [
+            "grazie",
+            "mille"
+          ],
+          "grammar_note": "mille = a thousand",
+          "native_response": {
+            "japanese": "Prego",
+            "romaji": "Pre-go",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "it_d09s05",
+          "difficulty": 2,
+          "japanese": "Avete il Wi-Fi?",
+          "romaji": "A-ve-tey eel wee-fee",
+          "chinese": "有Wi-Fi嗎？",
+          "keywords": [
+            "Wi-Fi",
+            "avete"
+          ],
+          "grammar_note": "avete = you have",
+          "native_response": {
+            "japanese": "Sì, la password è sul tavolo",
+            "romaji": "See la pas-word e sool ta-vo-lo",
+            "chinese": "有的，密碼在桌上"
+          }
+        },
+        {
+          "id": "it_d09s06",
+          "difficulty": 2,
+          "japanese": "È libero questo tavolo?",
+          "romaji": "E lee-be-ro kwes-to ta-vo-lo",
+          "chinese": "這個位子有人嗎？",
+          "keywords": [
+            "libero",
+            "tavolo"
+          ],
+          "grammar_note": "è = is",
+          "native_response": {
+            "japanese": "No, si accomodi",
+            "romaji": "No see a-ko-mo-dee",
+            "chinese": "沒有，請坐"
+          }
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "scene": "culture",
+      "scene_name": "🏛️ Cultura",
+      "phrases": [
+        {
+          "id": "it_d10s01",
+          "difficulty": 2,
+          "japanese": "Dov'è il museo?",
+          "romaji": "Do-ve eel moo-ze-o",
+          "chinese": "博物館在哪裡？",
+          "keywords": [
+            "museo",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "Accanto al duomo",
+            "romaji": "A-kan-to al dwo-mo",
+            "chinese": "在大教堂旁邊"
+          }
+        },
+        {
+          "id": "it_d10s02",
+          "difficulty": 2,
+          "japanese": "Quanto costa il biglietto?",
+          "romaji": "Kwan-to kos-ta eel bee-lye-to",
+          "chinese": "門票多少錢？",
+          "keywords": [
+            "biglietto",
+            "costa"
+          ],
+          "grammar_note": "quanto = how much",
+          "native_response": {
+            "japanese": "12 euro per gli adulti",
+            "romaji": "Do-dee-chee e-oo-ro pair lee a-dool-tee",
+            "chinese": "12歐元成人"
+          }
+        },
+        {
+          "id": "it_d10s03",
+          "difficulty": 2,
+          "japanese": "È aperto oggi?",
+          "romaji": "E a-pehr-to o-jee",
+          "chinese": "今天有開嗎？",
+          "keywords": [
+            "aperto",
+            "oggi"
+          ],
+          "grammar_note": "è = is",
+          "native_response": {
+            "japanese": "Sì, dalle 9 alle 18",
+            "romaji": "See da-lay no-vey a-lay dee-ee-ot-to",
+            "chinese": "有的，9點到18點"
+          }
+        },
+        {
+          "id": "it_d10s04",
+          "difficulty": 2,
+          "japanese": "Posso fare foto?",
+          "romaji": "Pos-so fa-rey fo-to",
+          "chinese": "可以拍照嗎？",
+          "keywords": [
+            "foto",
+            "fare"
+          ],
+          "grammar_note": "posso = I can",
+          "native_response": {
+            "japanese": "Sì, ma senza flash",
+            "romaji": "See may sen-tsa flash",
+            "chinese": "可以，但不能用閃光燈"
+          }
+        },
+        {
+          "id": "it_d10s05",
+          "difficulty": 2,
+          "japanese": "È magnifico!",
+          "romaji": "E man-ye-fee-ko",
+          "chinese": "太美了！",
+          "keywords": [
+            "magnifico"
+          ],
+          "grammar_note": "è = is",
+          "native_response": {
+            "japanese": "Veramente!",
+            "romaji": "Ve-ra-men-tey",
+            "chinese": "真的！"
+          }
+        },
+        {
+          "id": "it_d10s06",
+          "difficulty": 2,
+          "japanese": "Dov'è il bagno?",
+          "romaji": "Do-ve eel ba-nyo",
+          "chinese": "洗手間在哪裡？",
+          "keywords": [
+            "bagno",
+            "dov'è"
+          ],
+          "grammar_note": "dov'è = where is",
+          "native_response": {
+            "japanese": "In fondo a destra",
+            "romaji": "In fon-do a des-tra",
+            "chinese": "在盡頭右邊"
+          }
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "scene": "shopping2",
+      "scene_name": "🛒 Mercato",
+      "phrases": [
+        {
+          "id": "it_d11s01",
+          "difficulty": 1,
+          "japanese": "Vorrei comprare...",
+          "romaji": "Vo-rrey kom-pra-rey",
+          "chinese": "我想買...",
+          "keywords": [
+            "comprare",
+            "vorrei"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Cosa desidera?",
+            "romaji": "Ko-za de-ze-de-ra",
+            "chinese": "請問想要什麼？"
+          }
+        },
+        {
+          "id": "it_d11s02",
+          "difficulty": 1,
+          "japanese": "È troppo caro",
+          "romaji": "E trop-po ka-ro",
+          "chinese": "太貴了",
+          "keywords": [
+            "caro",
+            "troppo"
+          ],
+          "grammar_note": "troppo = too",
+          "native_response": {
+            "japanese": "Le faccio il 20% di sconto",
+            "romaji": "Lay fa-cho eel ven-tee per sen-to dee skon-to",
+            "chinese": "我給您8折"
+          }
+        },
+        {
+          "id": "it_d11s03",
+          "difficulty": 2,
+          "japanese": "Accetta la carta?",
+          "romaji": "A-ches-ta la kar-ta",
+          "chinese": "可以刷卡嗎？",
+          "keywords": [
+            "carta",
+            "accetta"
+          ],
+          "grammar_note": "accetta = accept",
+          "native_response": {
+            "japanese": "Sì, nessun problema",
+            "romaji": "See ne-soon pro-blay-ma",
+            "chinese": "可以，沒問題"
+          }
+        },
+        {
+          "id": "it_d11s04",
+          "difficulty": 2,
+          "japanese": "È l'ultima taglia?",
+          "romaji": "E lool-tee-ma ta-lee-a",
+          "chinese": "這是最後一個尺碼嗎？",
+          "keywords": [
+            "taglia",
+            "ultima"
+          ],
+          "grammar_note": "l'ultima = the last",
+          "native_response": {
+            "japanese": "Sì, è l'ultimo",
+            "romaji": "See e lool-tee-mo",
+            "chinese": "是的的最後一個"
+          }
+        },
+        {
+          "id": "it_d11s05",
+          "difficulty": 1,
+          "japanese": "Lo prendo",
+          "romaji": "Lo pren-do",
+          "chinese": "我要這個",
+          "keywords": [
+            "prendo"
+          ],
+          "grammar_note": "prendo = I take",
+          "native_response": {
+            "japanese": "Vuole un sacchetto?",
+            "romaji": "Vwo-lay oon sa-ke-to",
+            "chinese": "需要袋子嗎？"
+          }
+        },
+        {
+          "id": "it_d11s06",
+          "difficulty": 2,
+          "japanese": "Posso restituirlo?",
+          "romaji": "Pos-so res-tee-too-eer-lo",
+          "chinese": "可以退貨嗎？",
+          "keywords": [
+            "restituire"
+          ],
+          "grammar_note": "posso = I can",
+          "native_response": {
+            "japanese": "Con lo scontrino entro 7 giorni",
+            "romaji": "Kon lo skon-tree-no en-tro set zhoor-nee",
+            "chinese": "7天內有收據可以"
+          }
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "scene": "mixed",
+      "scene_name": "🎯 Misto",
+      "phrases": [
+        {
+          "id": "it_d12s01",
+          "difficulty": 2,
+          "japanese": "Parla inglese?",
+          "romaji": "Par-la een-glay-zey",
+          "chinese": "你會說英語嗎？",
+          "keywords": [
+            "inglese",
+            "parla"
+          ],
+          "grammar_note": "parla = speak",
+          "native_response": {
+            "japanese": "Sì, un po'",
+            "romaji": "See oon po",
+            "chinese": "會，一點點"
+          }
+        },
+        {
+          "id": "it_d12s02",
+          "difficulty": 2,
+          "japanese": "Non capisco",
+          "romaji": "Non ka-pee-sko",
+          "chinese": "我不明白",
+          "keywords": [
+            "capisco",
+            "non"
+          ],
+          "grammar_note": "non = not",
+          "native_response": {
+            "japanese": "Ripeto più lentamente",
+            "romaji": "Ree-pe-to ploos ley-ta-men-tey",
+            "chinese": "我慢慢重複"
+          }
+        },
+        {
+          "id": "it_d12s03",
+          "difficulty": 1,
+          "japanese": "Grazie mille",
+          "romaji": "Grah-tsee-ye mee-lay",
+          "chinese": "非常謝謝",
+          "keywords": [
+            "grazie",
+            "mille"
+          ],
+          "grammar_note": "mille = a thousand",
+          "native_response": {
+            "japanese": "Di nulla",
+            "romaji": "Dee nool-va",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "it_d12s04",
+          "difficulty": 2,
+          "japanese": "Può parlare più piano?",
+          "romaji": "Pwo par-la-rey ploos pee-a-no",
+          "chinese": "可以說慢一點嗎？",
+          "keywords": [
+            "piano",
+            "può"
+          ],
+          "grammar_note": "può = can",
+          "native_response": {
+            "japanese": "Certo, così?",
+            "romaji": "Chehr-to ko-zee",
+            "chinese": "當然，這樣好嗎？"
+          }
+        },
+        {
+          "id": "it_d12s05",
+          "difficulty": 2,
+          "japanese": "Sono un turista",
+          "romaji": "So-no oon too-ree-sta",
+          "chinese": "我是遊客",
+          "keywords": [
+            "turista"
+          ],
+          "grammar_note": "sono = I am",
+          "native_response": {
+            "japanese": "Benvenuto in Italia!",
+            "romaji": "Ben-ve-noo-to in EE-ta-lee-a",
+            "chinese": "歡迎來意大利！"
+          }
+        },
+        {
+          "id": "it_d12s06",
+          "difficulty": 2,
+          "japanese": "Dove va?",
+          "romaji": "Do-vey va",
+          "chinese": "你去哪裡？",
+          "keywords": [
+            "va"
+          ],
+          "grammar_note": "va = goes",
+          "native_response": {
+            "japanese": "Vado al Colosseo",
+            "romaji": "Va-do al Ko-los-se-o",
+            "chinese": "我去鬥獸場"
+          }
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "scene": "speed",
+      "scene_name": "⚡ Velocità",
+      "phrases": [
+        {
+          "id": "it_d13s01",
+          "difficulty": 1,
+          "japanese": "Sì",
+          "romaji": "See",
+          "chinese": "是的",
+          "keywords": [
+            "sì"
+          ],
+          "grammar_note": "sì = yes",
+          "native_response": {
+            "japanese": "D'accordo",
+            "romaji": "Da-ko-ro-do",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "it_d13s02",
+          "difficulty": 1,
+          "japanese": "No",
+          "romaji": "No",
+          "chinese": "不是",
+          "keywords": [
+            "no"
+          ],
+          "grammar_note": "no = no",
+          "native_response": {
+            "japanese": "Va bene",
+            "romaji": "Va be-ney",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "it_d13s03",
+          "difficulty": 1,
+          "japanese": "Mi scusi",
+          "romaji": "Mee skoo-zee",
+          "chinese": "不好意思",
+          "keywords": [
+            "scusi"
+          ],
+          "grammar_note": "scusi = excuse me",
+          "native_response": {
+            "japanese": "Sì?",
+            "romaji": "See",
+            "chinese": "什麼事？"
+          }
+        },
+        {
+          "id": "it_d13s04",
+          "difficulty": 1,
+          "japanese": "Non lo so",
+          "romaji": "Non lo so",
+          "chinese": "我不知道",
+          "keywords": [
+            "so"
+          ],
+          "grammar_note": "non = not",
+          "native_response": {
+            "japanese": "Non importa",
+            "romaji": "Non eem-por-ta",
+            "chinese": "沒關係"
+          }
+        },
+        {
+          "id": "it_d13s05",
+          "difficulty": 1,
+          "japanese": "Aspetti",
+          "romaji": "A-spe-tee",
+          "chinese": "等一下",
+          "keywords": [
+            "aspetta"
+          ],
+          "grammar_note": "aspetta = wait",
+          "native_response": {
+            "japanese": "D'accordo",
+            "romaji": "Da-ko-ro-do",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "it_d13s06",
+          "difficulty": 1,
+          "japanese": "Capito",
+          "romaji": "Ka-pee-to",
+          "chinese": "明白了",
+          "keywords": [
+            "capito"
+          ],
+          "grammar_note": "capito = understood",
+          "native_response": {
+            "japanese": "Perfetto",
+            "romaji": "Pehr-fek-to",
+            "chinese": "完美"
+          }
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "scene": "practice",
+      "scene_name": "🎤 Pratica",
+      "phrases": [
+        {
+          "id": "it_d14s01",
+          "difficulty": 3,
+          "japanese": "Vorrei cambiare la prenotazione",
+          "romaji": "Vo-rrey kam-bya-rey la pre-no-ta-tsee-o-ney",
+          "chinese": "我想改預約",
+          "keywords": [
+            "cambiare",
+            "prenotazione"
+          ],
+          "grammar_note": "vorrei = I would like",
+          "native_response": {
+            "japanese": "Cosa vuole cambiare?",
+            "romaji": "Ko-za vwo-lay kam-bya-rey",
+            "chinese": "您想改什麼？"
+          }
+        },
+        {
+          "id": "it_d14s02",
+          "difficulty": 3,
+          "japanese": "Ho perso il treno",
+          "romaji": "O pehr-so eel tre-no",
+          "chinese": "我錯過火車了",
+          "keywords": [
+            "perso",
+            "treno"
+          ],
+          "grammar_note": "ho = have",
+          "native_response": {
+            "japanese": "Il prossimo a che ora è?",
+            "romaji": "Eel pros-see-mo a kay o-ra e",
+            "chinese": "下一班幾點？"
+          }
+        },
+        {
+          "id": "it_d14s03",
+          "difficulty": 3,
+          "japanese": "Il mio volo è stato cancellato",
+          "romaji": "Eel mee-o vo-lo e sta-to kan-che-la-to",
+          "chinese": "我的航班被取消了",
+          "keywords": [
+            "cancellato",
+            "volo"
+          ],
+          "grammar_note": "stato = been",
+          "native_response": {
+            "japanese": "Mi dispiace, vuole un altro volo?",
+            "romaji": "Mee dees-pya-chey vwo-lay oon al-tro vo-lo",
+            "chinese": "抱歉，您想要另一班嗎？"
+          }
+        },
+        {
+          "id": "it_d14s04",
+          "difficulty": 3,
+          "japanese": "Vorrei un tavolo vicino alla finestra",
+          "romaji": "Vo-rrey oon ta-vo-lo vee-chee-no a-la fee-nes-tra",
+          "chinese": "我想要窗邊的位子",
+          "keywords": [
+            "finestra",
+            "vicino"
+          ],
+          "grammar_note": "vicino = near",
+          "native_response": {
+            "japanese": "Certo, prego",
+            "romaji": "Chehr-to pre-go",
+            "chinese": "好的，請"
+          }
+        },
+        {
+          "id": "it_d14s05",
+          "difficulty": 2,
+          "japanese": "Consiglia qualcosa?",
+          "romaji": "Kon-see-lya kwal-ko-za",
+          "chinese": "有什麼推薦嗎？",
+          "keywords": [
+            "consiglia"
+          ],
+          "grammar_note": "consiglia = recommend",
+          "native_response": {
+            "japanese": "Il filetto è eccellente",
+            "romaji": "Eel fee-le-to e e-che-len-tey",
+            "chinese": "牛排很好"
+          }
+        },
+        {
+          "id": "it_d14s06",
+          "difficulty": 3,
+          "japanese": "La carne è troppo al sangue",
+          "romaji": "La kar-ney e trop-po al san-gwey",
+          "chinese": "肉太生了",
+          "keywords": [
+            "carne",
+            "sangue"
+          ],
+          "grammar_note": "troppo = too",
+          "native_response": {
+            "japanese": "Lo rifaccio subito",
+            "romaji": "Lo ree-fa-cho soo-bee-to",
+            "chinese": "我重新做"
+          }
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "scene": "final",
+      "scene_name": "🏆 Finale",
+      "phrases": [
+        {
+          "id": "it_d15s01",
+          "difficulty": 2,
+          "japanese": "Benvenuto in Italia!",
+          "romaji": "Ben-ve-noo-to in EE-ta-lee-a",
+          "chinese": "歡迎來到意大利！",
+          "keywords": [
+            "benvenuto",
+            "Italia"
+          ],
+          "grammar_note": "in = in",
+          "native_response": {
+            "japanese": "Grazie, è magnifico!",
+            "romaji": "Grah-tsee-ye e man-ye-fee-ko",
+            "chinese": "謝謝，太美了！"
+          }
+        },
+        {
+          "id": "it_d15s02",
+          "difficulty": 2,
+          "japanese": "Ha avuto un buon soggiorno?",
+          "romaji": "A a-voo-to oon bwon sod-zho-ro-no",
+          "chinese": "您過得愉快嗎？",
+          "keywords": [
+            "soggiorno",
+            "buon"
+          ],
+          "grammar_note": "ha = have",
+          "native_response": {
+            "japanese": "Sì, magnifico!",
+            "romaji": "See man-ye-fee-ko",
+            "chinese": "是的，非常好！"
+          }
+        },
+        {
+          "id": "it_d15s03",
+          "difficulty": 2,
+          "japanese": "Cosa le è piaciuto di più?",
+          "romaji": "Ko-za lay e pya-choo-to dee ploos",
+          "chinese": "你最喜歡什麼？",
+          "keywords": [
+            "piaciuto"
+          ],
+          "grammar_note": "cosa = what",
+          "native_response": {
+            "japanese": "La cucina italiana!",
+            "romaji": "La koo-chee-na ee-ta-lee-a-na",
+            "chinese": "意大利菜！"
+          }
+        },
+        {
+          "id": "it_d15s04",
+          "difficulty": 2,
+          "japanese": "Tornerò",
+          "romaji": "Tor-ne-ro",
+          "chinese": "我會再來的",
+          "keywords": [
+            "tornerò"
+          ],
+          "grammar_note": "future tense",
+          "native_response": {
+            "japanese": "A presto!",
+            "romaji": "A pre-sto",
+            "chinese": "下次見！"
+          }
+        },
+        {
+          "id": "it_d15s05",
+          "difficulty": 2,
+          "japanese": "Arrivederci e grazie!",
+          "romaji": "A-ree-ve-dehr-chee ay grah-tsee-ye",
+          "chinese": "再見，謝謝！",
+          "keywords": [
+            "arrivederci",
+            "grazie"
+          ],
+          "grammar_note": "e = and",
+          "native_response": {
+            "japanese": "Buon viaggio!",
+            "romaji": "Bwon vee-a-dzho",
+            "chinese": "旅途愉快！"
+          }
+        },
+        {
+          "id": "it_d15s06",
+          "difficulty": 2,
+          "japanese": "Dove sono le attrazioni?",
+          "romaji": "Do-vey so-no lay a-tra-tsee-o-nee",
+          "chinese": "景點在哪裡？",
+          "keywords": [
+            "attrazioni"
+          ],
+          "grammar_note": "dove = where",
+          "native_response": {
+            "japanese": "Sono tutte nella guida",
+            "romaji": "So-no toot-tay nel-la gwee-da",
+            "chinese": "都在導遊手冊裡"
+          }
+        }
+      ]
+    }
+  ]
+}

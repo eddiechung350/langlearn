@@ -1,0 +1,1838 @@
+{
+  "language": "ja",
+  "name": "日本語",
+  "name_en": "Japanese",
+  "flag": "🗾",
+  "voice": "ja-JP-NanamiNeural",
+  "days": [
+    {
+      "day": 1,
+      "scene": "airport",
+      "scene_name": "✈️ 機場",
+      "phrases": [
+        {
+          "id": "ja_d01s01",
+          "difficulty": 1,
+          "japanese": "すみません、パスポートをください",
+          "romaji": "Sumimasen, pasupoto wo kudasai",
+          "chinese": "請給我護照",
+          "keywords": [
+            "すみません",
+            "パスポート",
+            "ください"
+          ],
+          "grammar_note": "を = 直接對象助詞",
+          "native_response": {
+            "japanese": "はい、どうぞ",
+            "romaji": "Hai, dozo",
+            "chinese": "好的，請"
+          }
+        },
+        {
+          "id": "ja_d01s02",
+          "difficulty": 1,
+          "japanese": "はい、これです",
+          "romaji": "Hai, kore desu",
+          "chinese": "是的，這個",
+          "keywords": [
+            "はい",
+            "これ",
+            "です"
+          ],
+          "grammar_note": "これ = 這個",
+          "native_response": {
+            "japanese": "ありがとうございます",
+            "romaji": "Arigato gozaimasu",
+            "chinese": "謝謝"
+          }
+        },
+        {
+          "id": "ja_d01s03",
+          "difficulty": 1,
+          "japanese": "はい、そうです",
+          "romaji": "Hai, so desu",
+          "chinese": "是的，沒錯",
+          "keywords": [
+            "はい",
+            "そう",
+            "です"
+          ],
+          "grammar_note": "そう = 那樣",
+          "native_response": {
+            "japanese": "かしこまりました",
+            "romaji": "Kashikomarimashita",
+            "chinese": "明白了"
+          }
+        },
+        {
+          "id": "ja_d01s04",
+          "difficulty": 2,
+          "japanese": "すみません、税関はどこですか",
+          "romaji": "Sumimasen, zeikan wa doko desu ka",
+          "chinese": "請問海關在哪裡？",
+          "keywords": [
+            "すみません",
+            "税関",
+            "どこ"
+          ],
+          "grammar_note": "は = 主題標記",
+          "native_response": {
+            "japanese": "あちらです",
+            "romaji": "Achira desu",
+            "chinese": "在那邊"
+          }
+        },
+        {
+          "id": "ja_d01s05",
+          "difficulty": 2,
+          "japanese": "どこで荷物を受け取れますか",
+          "romaji": "Doko de nimotsu wo uketoremasu ka",
+          "chinese": "在哪裡取行李？",
+          "keywords": [
+            "どこ",
+            "荷物",
+            "受け取る"
+          ],
+          "grammar_note": "で = 在；を受け取る = 領取",
+          "native_response": {
+            "japanese": "あそこです",
+            "romaji": "Asoko desu",
+            "chinese": "在那邊"
+          }
+        },
+        {
+          "id": "ja_d01s06",
+          "difficulty": 2,
+          "japanese": "はい、旅行者です",
+          "romaji": "Hai, ryokosha desu",
+          "chinese": "是的，我是旅客",
+          "keywords": [
+            "旅行者",
+            "です"
+          ],
+          "grammar_note": "です = 判定動詞",
+          "native_response": {
+            "japanese": "有何visionですか",
+            "romaji": "Nanbo no goryokaku desu ka",
+            "chinese": "預計停留多久？"
+          }
+        },
+        {
+          "id": "ja_d01s07",
+          "difficulty": 1,
+          "japanese": "ありがとうございます",
+          "romaji": "Arigato gozaimasu",
+          "chinese": "謝謝",
+          "keywords": [
+            "ありがとう",
+            "ございます"
+          ],
+          "grammar_note": "ございます = 鄭重的謝謝",
+          "native_response": {
+            "japanese": "どういたしまして",
+            "romaji": "Doitashimashite",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "ja_d01s08",
+          "difficulty": 2,
+          "japanese": "すみません、荷物が見つかりません",
+          "romaji": "Sumimasen, nimotsu ga mitsukarimasen",
+          "chinese": "不好意思，找不到行李",
+          "keywords": [
+            "荷物",
+            "見つかりません"
+          ],
+          "grammar_note": "が = 主語",
+          "native_response": {
+            "japanese": "暫し给您查询",
+            "romaji": "Shibaraku go kekka wo shirabemasu",
+            "chinese": "請稍等，我幫您查"
+          }
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "scene": "hotel",
+      "scene_name": "🏨 酒店",
+      "phrases": [
+        {
+          "id": "ja_d02s01",
+          "difficulty": 1,
+          "japanese": "予約があります",
+          "romaji": "Yoyaku ga arimasu",
+          "chinese": "我有預約",
+          "keywords": [
+            "予約",
+            "あります"
+          ],
+          "grammar_note": "が = 主語標記",
+          "native_response": {
+            "japanese": "はい、お名前どうぞ",
+            "romaji": "Hai, onamae dozo",
+            "chinese": "好的，請問您貴姓？"
+          }
+        },
+        {
+          "id": "ja_d02s02",
+          "difficulty": 1,
+          "japanese": "チェックインお願いします",
+          "romaji": "Chekkuin onegaishimasu",
+          "chinese": "我想辦理入住",
+          "keywords": [
+            "チェックイン",
+            "お願いします"
+          ],
+          "grammar_note": "お願いします = 拜託了",
+          "native_response": {
+            "japanese": "はい、パスポートお願いします",
+            "romaji": "Hai, pasupoto onegaishimasu",
+            "chinese": "好的，請給我護照"
+          }
+        },
+        {
+          "id": "ja_d02s03",
+          "difficulty": 2,
+          "japanese": "Wi-Fiのパスワードをください",
+          "romaji": "Wi-Fi no pasuwaldo wo kudasai",
+          "chinese": "請給我 Wi-Fi 密碼",
+          "keywords": [
+            "Wi-Fi",
+            "パスワード",
+            "ください"
+          ],
+          "grammar_note": "の = 的",
+          "native_response": {
+            "japanese": "はい、ご説明します",
+            "romaji": "Hai, go setsumei shimasu",
+            "chinese": "好的，我來說明"
+          }
+        },
+        {
+          "id": "ja_d02s04",
+          "difficulty": 2,
+          "japanese": "朝食は何時からですか",
+          "romaji": "Choshoku wa nanji kara desu ka",
+          "chinese": "早餐從幾點開始？",
+          "keywords": [
+            "朝食",
+            "何時",
+            "から"
+          ],
+          "grammar_note": "から = 從",
+          "native_response": {
+            "japanese": "午前6時半から10時までです",
+            "romaji": "Gozen 6:30 kara 10-ji made desu",
+            "chinese": "早上六點半到十點"
+          }
+        },
+        {
+          "id": "ja_d02s05",
+          "difficulty": 2,
+          "japanese": "キーをお願いします",
+          "romaji": "Ki wo onegaishimasu",
+          "chinese": "請給我房間鑰匙",
+          "keywords": [
+            "キー",
+            "お願いします"
+          ],
+          "grammar_note": "を = 賓語標記",
+          "native_response": {
+            "japanese": "はい、601号室です",
+            "romaji": "Hai, 601-gosshitsu desu",
+            "chinese": "好的，601號房"
+          }
+        },
+        {
+          "id": "ja_d02s06",
+          "difficulty": 2,
+          "japanese": "エレベーターはどこですか",
+          "romaji": "Erebeto wa doko desu ka",
+          "chinese": "電梯在哪裡？",
+          "keywords": [
+            "エレベーター",
+            "どこ"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "あちらを曲がったところです",
+            "romaji": "Achira wo magatta tokoro desu",
+            "chinese": "轉過轉角處"
+          }
+        },
+        {
+          "id": "ja_d02s07",
+          "difficulty": 2,
+          "japanese": "貴重品を部屋に置いてもいいですか",
+          "romaji": "Kicho-hin wo heya ni oite mo ii desu ka",
+          "chinese": "可以把貴重物品放房間嗎？",
+          "keywords": [
+            "貴重品",
+            "置いて",
+            "いい"
+          ],
+          "grammar_note": "てもいいですか = 可以嗎",
+          "native_response": {
+            "japanese": "おすすめは貴重品袋をご使用することです",
+            "romaji": "Osusume wa kicho-hin-bukuro wo goshiyo suru koto desu",
+            "chinese": "建議使用保險箱"
+          }
+        },
+        {
+          "id": "ja_d02s08",
+          "difficulty": 3,
+          "japanese": "チェックアウトはいつですか",
+          "romaji": "Chekkauto wa itsu desu ka",
+          "chinese": "退房時間是幾點？",
+          "keywords": [
+            "チェックアウト",
+            "いつ"
+          ],
+          "grammar_note": "は = 主題；いつ = 何時",
+          "native_response": {
+            "japanese": "午前11時までです",
+            "romaji": "Gozen 11-ji made desu",
+            "chinese": "上午十一點前"
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "scene": "restaurant",
+      "scene_name": "🍜 餐廳",
+      "phrases": [
+        {
+          "id": "ja_d03s01",
+          "difficulty": 1,
+          "japanese": "コーヒーをください",
+          "romaji": "Kohi wo kudasai",
+          "chinese": "請給我咖啡",
+          "keywords": [
+            "コーヒー",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語標記",
+          "native_response": {
+            "japanese": "はい、かしこまりました",
+            "romaji": "Hai, kashikomarimashita",
+            "chinese": "好的，明白了"
+          }
+        },
+        {
+          "id": "ja_d03s02",
+          "difficulty": 1,
+          "japanese": "おすすめは何ですか",
+          "romaji": "Osusume wa nan desu ka",
+          "chinese": "有什麼推薦的？",
+          "keywords": [
+            "おすすめ",
+            "何"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "本日の特餐はこれです",
+            "romaji": "Honjitsu no tokusan wa kore desu",
+            "chinese": "今日的特餐是這個"
+          }
+        },
+        {
+          "id": "ja_d03s03",
+          "difficulty": 1,
+          "japanese": "これをください",
+          "romaji": "Kore wo kudasai",
+          "chinese": "請給我這個",
+          "keywords": [
+            "これ",
+            "ください"
+          ],
+          "grammar_note": "これ = 這個",
+          "native_response": {
+            "japanese": "はい、でしょう",
+            "romaji": "Hai, desho",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "ja_d03s04",
+          "difficulty": 2,
+          "japanese": "お会計お願いします",
+          "romaji": "Okaikei onegaishimasu",
+          "chinese": "請結帳",
+          "keywords": [
+            "お会計",
+            "お願いします"
+          ],
+          "grammar_note": "お + 詞 = 恭敬",
+          "native_response": {
+            "japanese": "はい、4500円です",
+            "romaji": "Hai, 4500-en desu",
+            "chinese": "好的，4500日元"
+          }
+        },
+        {
+          "id": "ja_d03s05",
+          "difficulty": 1,
+          "japanese": "おいしいです",
+          "romaji": "Oishii desu",
+          "chinese": "很好吃",
+          "keywords": [
+            "おいしい",
+            "です"
+          ],
+          "grammar_note": "おいしい = 好吃",
+          "native_response": {
+            "japanese": "ありがとうございます",
+            "romaji": "Arigato gozaimasu",
+            "chinese": "謝謝誇獎"
+          }
+        },
+        {
+          "id": "ja_d03s06",
+          "difficulty": 2,
+          "japanese": "方は何人ですか",
+          "romaji": "Goha wa nannin desu ka",
+          "chinese": "請問幾位？",
+          "keywords": [
+            "何人",
+            "方"
+          ],
+          "grammar_note": "方 = 人的敬稱",
+          "native_response": {
+            "japanese": "2名です",
+            "romaji": "Niname desu",
+            "chinese": "兩位"
+          }
+        },
+        {
+          "id": "ja_d03s07",
+          "difficulty": 2,
+          "japanese": "吸烟席がありますか",
+          "romaji": "Kitsuenseki ga arimasu ka",
+          "chinese": "有吸煙區嗎？",
+          "keywords": [
+            "吸烟席",
+            "あります"
+          ],
+          "grammar_note": "ますか = 疑問",
+          "native_response": {
+            "japanese": "恐れ入りますが、全席禁煙です",
+            "romaji": "Osore iremasen ga, zenseki kinen desu",
+            "chinese": "抱歉，全部禁菸"
+          }
+        },
+        {
+          "id": "ja_d03s08",
+          "difficulty": 1,
+          "japanese": "ごちそうさまでした",
+          "romaji": "Gochisousama deshita",
+          "chinese": "吃完了（謝謝款待）",
+          "keywords": [
+            "ごちそうさま",
+            "した"
+          ],
+          "grammar_note": "でした = 過去",
+          "native_response": {
+            "japanese": "おいしそうでした",
+            "romaji": "Oishiso deshita",
+            "chinese": "看起來很好吃呢"
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "scene": "transport",
+      "scene_name": "🚇 交通",
+      "phrases": [
+        {
+          "id": "ja_d04s01",
+          "difficulty": 2,
+          "japanese": "迪士尼乐园に行きたいです",
+          "romaji": "Disney Land ni ikitai desu",
+          "chinese": "我想去迪士尼樂園",
+          "keywords": [
+            "行きたい",
+            "です"
+          ],
+          "grammar_note": "に = 方向",
+          "native_response": {
+            "japanese": "JR線で新宿までです",
+            "romaji": "JR-sen de Shinjuku made desu",
+            "chinese": "乘JR線到新宿"
+          }
+        },
+        {
+          "id": "ja_d04s02",
+          "difficulty": 2,
+          "japanese": "切符をください",
+          "romaji": "Kippu wo kudasai",
+          "chinese": "請給我票",
+          "keywords": [
+            "切符",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、220円です",
+            "romaji": "Hai, 220-en desu",
+            "chinese": "好的，220日元"
+          }
+        },
+        {
+          "id": "ja_d04s03",
+          "difficulty": 2,
+          "japanese": "これは何線ですか",
+          "romaji": "Kore wa nan sen desu ka",
+          "chinese": "這是幾號線？",
+          "keywords": [
+            "何線",
+            "です"
+          ],
+          "grammar_note": "何 = 什麼",
+          "native_response": {
+            "japanese": "山手線です",
+            "romaji": "Yamanote-sen desu",
+            "chinese": "是山手線"
+          }
+        },
+        {
+          "id": "ja_d04s04",
+          "difficulty": 2,
+          "japanese": "この駅はどれですか",
+          "romaji": "Kono eki wa dore desu ka",
+          "chinese": "這一站是哪一個？",
+          "keywords": [
+            "この駅",
+            "どれ"
+          ],
+          "grammar_note": "この = 這",
+          "native_response": {
+            "japanese": "あそこです",
+            "romaji": "Asoko desu",
+            "chinese": "在那邊"
+          }
+        },
+        {
+          "id": "ja_d04s05",
+          "difficulty": 2,
+          "japanese": "いくらですか",
+          "romaji": "Ikura desu ka",
+          "chinese": "多少錢？",
+          "keywords": [
+            "いくら",
+            "です"
+          ],
+          "grammar_note": "いくら = 多少錢",
+          "native_response": {
+            "japanese": "350円です",
+            "romaji": "350-en desu",
+            "chinese": "350日元"
+          }
+        },
+        {
+          "id": "ja_d04s06",
+          "difficulty": 2,
+          "japanese": "ありがとうございます",
+          "romaji": "Arigato gozaimasu",
+          "chinese": "謝謝",
+          "keywords": [
+            "ありがとう",
+            "ございます"
+          ],
+          "grammar_note": "ございます = 鄭重",
+          "native_response": {
+            "japanese": "どういたしまして",
+            "romaji": "Doitashimashite",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "ja_d04s07",
+          "difficulty": 3,
+          "japanese": "終電は何時ですか",
+          "romaji": "Shuden wa nanji desu ka",
+          "chinese": "末班車是幾點？",
+          "keywords": [
+            "終電",
+            "何時"
+          ],
+          "grammar_note": "何時 = 幾點",
+          "native_response": {
+            "japanese": "午前0時です",
+            "romaji": "Gozen 0-ji desu",
+            "chinese": "凌晨十二點"
+          }
+        },
+        {
+          "id": "ja_d04s08",
+          "difficulty": 2,
+          "japanese": "すみません、席を譲りたいですが",
+          "romaji": "Sumimasen, seki wo yudan tai desu ga",
+          "chinese": "不好意思，我想讓座",
+          "keywords": [
+            "すみません",
+            "席",
+            "譲る"
+          ],
+          "grammar_note": "たいです = 想",
+          "native_response": {
+            "japanese": "ありがとうございます",
+            "romaji": "Arigato gozaimasu",
+            "chinese": "謝謝你"
+          }
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "scene": "taxi",
+      "scene_name": "🚕 的士",
+      "phrases": [
+        {
+          "id": "ja_d05s01",
+          "difficulty": 1,
+          "japanese": "この住所までお願いします",
+          "romaji": "Kono jusho made onegaishimasu",
+          "chinese": "請到這個地址",
+          "keywords": [
+            "住所",
+            "まで",
+            "お願いします"
+          ],
+          "grammar_note": "まで = 到",
+          "native_response": {
+            "japanese": "はい、わかりました",
+            "romaji": "Hai, wakarimashita",
+            "chinese": "好的，明白了"
+          }
+        },
+        {
+          "id": "ja_d05s02",
+          "difficulty": 2,
+          "japanese": "ここで停めてください",
+          "romaji": "Koko de tomete kudasai",
+          "chinese": "請在這裡停車",
+          "keywords": [
+            "停める",
+            "ください"
+          ],
+          "grammar_note": "て = 請求",
+          "native_response": {
+            "japanese": "はい",
+            "romaji": "Hai",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "ja_d05s03",
+          "difficulty": 2,
+          "japanese": "おいくらですか",
+          "romaji": "Oikura desu ka",
+          "chinese": "多少錢？",
+          "keywords": [
+            "いくら",
+            "です"
+          ],
+          "grammar_note": "お = 禮貌前綴",
+          "native_response": {
+            "japanese": "3200円です",
+            "romaji": "3200-en desu",
+            "chinese": "3200日元"
+          }
+        },
+        {
+          "id": "ja_d05s04",
+          "difficulty": 1,
+          "japanese": "ありがとうございます",
+          "romaji": "Arigato gozaimasu",
+          "chinese": "謝謝",
+          "keywords": [
+            "ありがとう",
+            "ございます"
+          ],
+          "grammar_note": "ございます = 鄭重",
+          "native_response": {
+            "japanese": "どういたしまして",
+            "romaji": "Doitashimashite",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "ja_d05s05",
+          "difficulty": 2,
+          "japanese": "ATMはどこですか",
+          "romaji": "ATM wa doko desu ka",
+          "chinese": "ATM在哪裡？",
+          "keywords": [
+            "ATM",
+            "どこ"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "駅の構内にあります",
+            "romaji": "Eki no konai ni arimasu",
+            "chinese": "在車站裡面"
+          }
+        },
+        {
+          "id": "ja_d05s06",
+          "difficulty": 2,
+          "japanese": "領収書をください",
+          "romaji": "Ryoshusho wo kudasai",
+          "chinese": "請給我收據",
+          "keywords": [
+            "領収書",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、どうぞ",
+            "romaji": "Hai, dozo",
+            "chinese": "好的，請"
+          }
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "scene": "shopping",
+      "scene_name": "🛍️ 購物",
+      "phrases": [
+        {
+          "id": "ja_d06s01",
+          "difficulty": 1,
+          "japanese": "これはいくらですか",
+          "romaji": "Kore wa ikura desu ka",
+          "chinese": "這個多少錢？",
+          "keywords": [
+            "これ",
+            "いくら"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "1500円です",
+            "romaji": "1500-en desu",
+            "chinese": "1500日元"
+          }
+        },
+        {
+          "id": "ja_d06s02",
+          "difficulty": 1,
+          "japanese": "試着してもいいですか",
+          "romaji": "Shichaku shite mo ii desu ka",
+          "chinese": "可以試穿嗎？",
+          "keywords": [
+            "試着",
+            "いい"
+          ],
+          "grammar_note": "てもいいですか = 可以嗎",
+          "native_response": {
+            "japanese": "はい、どうぞ",
+            "romaji": "Hai, dozo",
+            "chinese": "好的，請"
+          }
+        },
+        {
+          "id": "ja_d06s03",
+          "difficulty": 2,
+          "japanese": "Mサイズがありますか",
+          "romaji": "M saizu ga arimasu ka",
+          "chinese": "有M碼嗎？",
+          "keywords": [
+            "サイズ",
+            "あり"
+          ],
+          "grammar_note": "ますか = 疑問",
+          "native_response": {
+            "japanese": "はい、ございます",
+            "romaji": "Hai, gozaimasu",
+            "chinese": "有的"
+          }
+        },
+        {
+          "id": "ja_d06s04",
+          "difficulty": 1,
+          "japanese": "カードで払えますか",
+          "romaji": "Kado de harae masu ka",
+          "chinese": "可以刷卡嗎？",
+          "keywords": [
+            "カード",
+            "払い"
+          ],
+          "grammar_note": "で = 手段",
+          "native_response": {
+            "japanese": "はい、大丈夫です",
+            "romaji": "Hai, daijobu desu",
+            "chinese": "可以，沒問題"
+          }
+        },
+        {
+          "id": "ja_d06s05",
+          "difficulty": 2,
+          "japanese": "免税できますか",
+          "romaji": "Menzei dekimasu ka",
+          "chinese": "可以免稅嗎？",
+          "keywords": [
+            "免税",
+            "でき"
+          ],
+          "grammar_note": "できます = 可以",
+          "native_response": {
+            "japanese": "はい、5000円以上ご購入で免税できます",
+            "romaji": "Hai, 5000-en ijo konyu de menzei dekimasu",
+            "chinese": "是的，滿5000日元可免稅"
+          }
+        },
+        {
+          "id": "ja_d06s06",
+          "difficulty": 1,
+          "japanese": "これを包んでください",
+          "romaji": "Kore wo tsutsunde kudasai",
+          "chinese": "請幫我包起來",
+          "keywords": [
+            "包む",
+            "ください"
+          ],
+          "grammar_note": "て = 請求",
+          "native_response": {
+            "japanese": "はい、かしこまりました",
+            "romaji": "Hai, kashikomarimashita",
+            "chinese": "好的，明白了"
+          }
+        },
+        {
+          "id": "ja_d06s07",
+          "difficulty": 2,
+          "japanese": "袋をください",
+          "romaji": "Fukuro wo kudasai",
+          "chinese": "請給我袋子",
+          "keywords": [
+            "袋",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、ご利用ですか",
+            "romaji": "Hai, goriyo desu ka",
+            "chinese": "好的，需要付費嗎？"
+          }
+        },
+        {
+          "id": "ja_d06s08",
+          "difficulty": 2,
+          "japanese": "交換・退款はできますか",
+          "romaji": "Kokan baikin wa dekimasu ka",
+          "chinese": "可以退換嗎？",
+          "keywords": [
+            "交換",
+            "退款",
+            "でき"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "はい、レシートをお持ちであれば可能です",
+            "romaji": "Hai, resshito wo omochi de areba kano desu",
+            "chinese": "有收據就可以"
+          }
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "scene": "directions",
+      "scene_name": "🧭 問路",
+      "phrases": [
+        {
+          "id": "ja_d07s01",
+          "difficulty": 1,
+          "japanese": "すみません、駅はどこですか",
+          "romaji": "Sumimasen, eki wa doko desu ka",
+          "chinese": "不好意思，車站在哪裡？",
+          "keywords": [
+            "すみません",
+            "駅",
+            "どこ"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "あの角を曲がってください",
+            "romaji": "Ano kado wo magatte kudasai",
+            "chinese": "請在下一個轉角轉彎"
+          }
+        },
+        {
+          "id": "ja_d07s02",
+          "difficulty": 2,
+          "japanese": "ここから遠いですか",
+          "romaji": "Koko kara toi desu ka",
+          "chinese": "離這裡遠嗎？",
+          "keywords": [
+            "まで",
+            "遠い"
+          ],
+          "grammar_note": "まで = 到",
+          "native_response": {
+            "japanese": "はい、歩いて10分です",
+            "romaji": "Hai, aruite 10-fun desu",
+            "chinese": "是的，走路十分鐘"
+          }
+        },
+        {
+          "id": "ja_d07s03",
+          "difficulty": 2,
+          "japanese": "左に曲がってください",
+          "romaji": "Hidari ni magatte kudasai",
+          "chinese": "請左轉",
+          "keywords": [
+            "左",
+            "曲がる",
+            "ください"
+          ],
+          "grammar_note": "に = 方向",
+          "native_response": {
+            "japanese": "はい、わかりました",
+            "romaji": "Hai, wakarimashita",
+            "chinese": "好的，明白了"
+          }
+        },
+        {
+          "id": "ja_d07s04",
+          "difficulty": 2,
+          "japanese": "直進してください",
+          "romaji": "Chokushin shite kudasai",
+          "chinese": "請直走",
+          "keywords": [
+            "直進",
+            "して",
+            "ください"
+          ],
+          "grammar_note": "して = 做",
+          "native_response": {
+            "japanese": "はい",
+            "romaji": "Hai",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "ja_d07s05",
+          "difficulty": 2,
+          "japanese": "この近くにATMはありますか",
+          "romaji": "Kono chikaku ni ATM wa arimasu ka",
+          "chinese": "這附近有ATM嗎？",
+          "keywords": [
+            "近く",
+            "ATM",
+            "あり"
+          ],
+          "grammar_note": "に = 地點",
+          "native_response": {
+            "japanese": "はい、道を渡ったところにございます",
+            "romaji": "Hai, michi wo watatta tokoro ni gozaimasu",
+            "chinese": "有的，過馬路那邊"
+          }
+        },
+        {
+          "id": "ja_d07s06",
+          "difficulty": 2,
+          "japanese": "写真を撮ってもいいですか",
+          "romaji": "Shashin wo totte mo ii desu ka",
+          "chinese": "可以拍照嗎？",
+          "keywords": [
+            "写真",
+            "撮る",
+            "いい"
+          ],
+          "grammar_note": "てもいいですか = 可以嗎",
+          "native_response": {
+            "japanese": "はい、でも周囲にご注意くださいね",
+            "romaji": "Hai, demo shuhei ni gochui kudasai ne",
+            "chinese": "可以，但請注意別人"
+          }
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "scene": "onsen",
+      "scene_name": "♨️ 溫泉",
+      "phrases": [
+        {
+          "id": "ja_d08s01",
+          "difficulty": 1,
+          "japanese": "入ってもいいですか",
+          "romaji": "Haitte mo ii desu ka",
+          "chinese": "可以進去嗎？",
+          "keywords": [
+            "入る",
+            "いい"
+          ],
+          "grammar_note": "てもいいですか = 可以嗎",
+          "native_response": {
+            "japanese": "はい、どうぞ",
+            "romaji": "Hai, dozo",
+            "chinese": "好的，請"
+          }
+        },
+        {
+          "id": "ja_d08s02",
+          "difficulty": 2,
+          "japanese": "刺青がありますが、入れますか",
+          "romaji": "Irezumi ga arimasu ga, hairemasu ka",
+          "chinese": "我有紋身，可以進嗎？",
+          "keywords": [
+            "刺青",
+            "あり",
+            "入れ"
+          ],
+          "grammar_note": "が = 轉折",
+          "native_response": {
+            "japanese": "小さなものは大丈夫ですが、大きいものは絆創膏を，您好",
+            "romaji": "Chisana mono wa daijobu desu ga, okki mono wa bansogao wo haitte itadakemasu",
+            "chinese": "小的一般沒問題，大的需要貼膠布"
+          }
+        },
+        {
+          "id": "ja_d08s03",
+          "difficulty": 1,
+          "japanese": "ありがとうございます",
+          "romaji": "Arigato gozaimasu",
+          "chinese": "謝謝",
+          "keywords": [
+            "ありがとう",
+            "ございます"
+          ],
+          "grammar_note": "ございます = 鄭重",
+          "native_response": {
+            "japanese": "どういたしまして",
+            "romaji": "Doitashimashite",
+            "chinese": "不客氣"
+          }
+        },
+        {
+          "id": "ja_d08s04",
+          "difficulty": 2,
+          "japanese": "洗发水はありますか",
+          "romaji": "Shampusha wa arimasu ka",
+          "chinese": "有洗頭水嗎？",
+          "keywords": [
+            "洗发水",
+            "あり"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "はい、洗面台にあります",
+            "romaji": "Hai, senmen-dai ni arimasu",
+            "chinese": "有的，在洗臉台那邊"
+          }
+        },
+        {
+          "id": "ja_d08s05",
+          "difficulty": 2,
+          "japanese": "更衣室はどこですか",
+          "romaji": "Kigae-shitsu wa doko desu ka",
+          "chinese": "更衣室在哪裡？",
+          "keywords": [
+            "更衣室",
+            "どこ"
+          ],
+          "grammar_note": "はどこ = 在哪",
+          "native_response": {
+            "japanese": "あちらです",
+            "romaji": "Achira desu",
+            "chinese": "在那邊"
+          }
+        },
+        {
+          "id": "ja_d08s06",
+          "difficulty": 2,
+          "japanese": "鍵を持しなければいけませんか",
+          "romaji": "Kagi wo motanakya ikenakattadesu ka",
+          "chinese": "需要帶鎖嗎？",
+          "keywords": [
+            "鍵",
+            "なきゃいけない"
+          ],
+          "grammar_note": "なきゃいけない = 必須",
+          "native_response": {
+            "japanese": "いいえ、備え付けのロッカーをご使用ください",
+            "romaji": "Iie, sonaetsuke no rokkwo goshiyo kudasai",
+            "chinese": "不用，有附設的"
+          }
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "scene": "convenience",
+      "scene_name": "🏪 便利店",
+      "phrases": [
+        {
+          "id": "ja_d09s01",
+          "difficulty": 1,
+          "japanese": "これをください",
+          "romaji": "Kore wo kudasai",
+          "chinese": "請給我這個",
+          "keywords": [
+            "これ",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "110円です",
+            "romaji": "110-en desu",
+            "chinese": "110日元"
+          }
+        },
+        {
+          "id": "ja_d09s02",
+          "difficulty": 1,
+          "japanese": "温めてください",
+          "romaji": "Atatamete kudasai",
+          "chinese": "請幫我加熱",
+          "keywords": [
+            "温める",
+            "ください"
+          ],
+          "grammar_note": "て = 請求",
+          "native_response": {
+            "japanese": "はい、約1分です",
+            "romaji": "Hai, yaku 1-fun desu",
+            "chinese": "好的，大約1分鐘"
+          }
+        },
+        {
+          "id": "ja_d09s03",
+          "difficulty": 1,
+          "japanese": "はさみ はありますか",
+          "romaji": "Hasami wa arimasu ka",
+          "chinese": "有剪刀嗎？",
+          "keywords": [
+            "はさみ",
+            "あり"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "恐れ入りますが、ありません",
+            "romaji": "Osore iremasen ga, arimasen",
+            "chinese": "抱歉，沒有了"
+          }
+        },
+        {
+          "id": "ja_d09s04",
+          "difficulty": 1,
+          "japanese": "お釣りをください",
+          "romaji": "Otsuri wo kudasai",
+          "chinese": "請找零錢",
+          "keywords": [
+            "お釣",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、870円のお釣です",
+            "romaji": "Hai, 870-en no otsuri desu",
+            "chinese": "好的，這是870日元找零"
+          }
+        },
+        {
+          "id": "ja_d09s05",
+          "difficulty": 2,
+          "japanese": "有料袋をお願いします",
+          "romaji": "Yuryo fukuro wo onegaishimasu",
+          "chinese": "請給我收費膠袋",
+          "keywords": [
+            "有料袋",
+            "お願いします"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、3円です",
+            "romaji": "Hai, 3-en desu",
+            "chinese": "好的，3日元"
+          }
+        },
+        {
+          "id": "ja_d09s06",
+          "difficulty": 2,
+          "japanese": "コピー、印刷できますか",
+          "romaji": "Kopi, insatsu dekimasu ka",
+          "chinese": "可以影印和列印嗎？",
+          "keywords": [
+            "コピー",
+            "印刷",
+            "でき"
+          ],
+          "grammar_note": "できます = 可以",
+          "native_response": {
+            "japanese": "はい、できます",
+            "romaji": "Hai, dekimasu",
+            "chinese": "可以"
+          }
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "scene": "temple",
+      "scene_name": "⛩️ 神社",
+      "phrases": [
+        {
+          "id": "ja_d10s01",
+          "difficulty": 2,
+          "japanese": "何人くらい参りましたか",
+          "romaji": "Ninbo kurai mairimashita ka",
+          "chinese": "大約有多少人參拜？",
+          "keywords": [
+            "何人",
+            "くらい",
+            "参る"
+          ],
+          "grammar_note": "くらい = 大約",
+          "native_response": {
+            "japanese": "日により異なります",
+            "romaji": "Hi ni yori ikotonarimasu",
+            "chinese": "根據時期而不同"
+          }
+        },
+        {
+          "id": "ja_d10s02",
+          "difficulty": 2,
+          "japanese": "お守りを買いたいですが",
+          "romaji": "Omamori wo kaitai desu ga",
+          "chinese": "我想買護身符",
+          "keywords": [
+            "お守り",
+            "買いたい"
+          ],
+          "grammar_note": "たい = 想",
+          "native_response": {
+            "japanese": "はい、あちらの授創所でお求めください",
+            "romaji": "Hai, achira no jukuso de okatamero kudasai",
+            "chinese": "好的，請到那邊的授創所購買"
+          }
+        },
+        {
+          "id": "ja_d10s03",
+          "difficulty": 2,
+          "japanese": "此地では何を祈ると霊驗ですか",
+          "romaji": "Kono chi de wa nani wo inoru to reigen desu ka",
+          "chinese": "這裡求什麼最靈驗？",
+          "keywords": [
+            "何",
+            "祈る",
+            "霊驗"
+          ],
+          "grammar_note": "では = 在",
+          "native_response": {
+            "japanese": "學業成就、健康安全、恋愛成就など 다양합니다",
+            "romaji": "Gakugyoajo, kenko anzenseki, ren'ai joto nado taso arimasu",
+            "chinese": "學業、健康、戀愛等各種"
+          }
+        },
+        {
+          "id": "ja_d10s04",
+          "difficulty": 2,
+          "japanese": "賽錢的目的是什麼",
+          "romaji": "Saisen no mokuteki wa nan desu ka",
+          "chinese": "賽錢的目的是什麼？",
+          "keywords": [
+            "賽錢",
+            "目的"
+          ],
+          "grammar_note": "の = 的",
+          "native_response": {
+            "japanese": "德を積むため、神佛を供养するためです",
+            "romaji": "Toku wo tsumu tame, shinbutsu wo kuyo tame desu",
+            "chinese": "累積功德，供養神明"
+          }
+        },
+        {
+          "id": "ja_d10s05",
+          "difficulty": 2,
+          "japanese": "可以拍照吗",
+          "romaji": "Shashin wo totte mo ii desu ka",
+          "chinese": "可以拍照嗎？",
+          "keywords": [
+            "写真",
+            "撮る",
+            "いい"
+          ],
+          "grammar_note": "てもいいですか = 可以嗎",
+          "native_response": {
+            "japanese": "はい、でも本土は撮影禁止のところもあります",
+            "romaji": "Hai, demo Honda wa satsuei kindan no tokoro mo arimasu",
+            "chinese": "可以，但本堂有些地方不能拍"
+          }
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "scene": "emergency",
+      "scene_name": "🚨 緊急",
+      "phrases": [
+        {
+          "id": "ja_d11s01",
+          "difficulty": 1,
+          "japanese": "助けて",
+          "romaji": "Tasukete",
+          "chinese": "救命！",
+          "keywords": [
+            "助ける",
+            "te-form"
+          ],
+          "grammar_note": "て = 命令形",
+          "native_response": {
+            "japanese": "大丈夫ですか",
+            "romaji": "Daijobu desu ka",
+            "chinese": "你還好嗎？"
+          }
+        },
+        {
+          "id": "ja_d11s02",
+          "difficulty": 2,
+          "japanese": "救急車を呼んでください",
+          "romaji": "Kyukyusha wo yonde kudasai",
+          "chinese": "請叫救護車",
+          "keywords": [
+            "救急車",
+            "呼ぶ",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、直ちに呼びます",
+            "romaji": "Hai, tachini yobimasu",
+            "chinese": "好的，立刻叫"
+          }
+        },
+        {
+          "id": "ja_d11s03",
+          "difficulty": 2,
+          "japanese": "病院はどこですか",
+          "romaji": "Byoin wa doko desu ka",
+          "chinese": "醫院在哪裡？",
+          "keywords": [
+            "病院",
+            "どこ"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "あの大きな通りを曲がったところにございます",
+            "romaji": "Ano okina tori wo magatta tokoro ni gozaimasu",
+            "chinese": "在那一條大馬路轉過去的地方"
+          }
+        },
+        {
+          "id": "ja_d11s04",
+          "difficulty": 2,
+          "japanese": "警察を呼んでください",
+          "romaji": "Keisatsu wo yonde kudasai",
+          "chinese": "請叫警察",
+          "keywords": [
+            "警察",
+            "呼ぶ",
+            "ください"
+          ],
+          "grammar_note": "を = 賓語",
+          "native_response": {
+            "japanese": "はい、わかりました",
+            "romaji": "Hai, wakarimashita",
+            "chinese": "好的，明白了"
+          }
+        },
+        {
+          "id": "ja_d11s05",
+          "difficulty": 2,
+          "japanese": "大使館に連絡したいですが",
+          "romaji": "Taishikan ni renraku shitai desu ga",
+          "chinese": "我想聯絡大使館",
+          "keywords": [
+            "大使館",
+            "連絡",
+            "したい"
+          ],
+          "grammar_note": "たい = 想",
+          "native_response": {
+            "japanese": "はい、どのようなご用件ですか",
+            "romaji": "Hai, donoyona goyoken desu ka",
+            "chinese": "好的，請問是什麼事情？"
+          }
+        },
+        {
+          "id": "ja_d11s06",
+          "difficulty": 2,
+          "japanese": "どこが悪いですか",
+          "romaji": "Doko ga warui desu ka",
+          "chinese": "您哪裡不舒服？",
+          "keywords": [
+            "どこ",
+            "悪い"
+          ],
+          "grammar_note": "が = 主語",
+          "native_response": {
+            "japanese": "頭が痛いです",
+            "romaji": "Atama ga itai desu",
+            "chinese": "頭疼"
+          }
+        },
+        {
+          "id": "ja_d11s07",
+          "difficulty": 2,
+          "japanese": "私の人が迷子になりました",
+          "romaji": "Watashi no hito ga maigo ni narimashita",
+          "chinese": "我的人走失了",
+          "keywords": [
+            "人",
+            "迷子"
+          ],
+          "grammar_note": "が = 主語",
+          "native_response": {
+            "japanese": "最後どちらで會いましたか",
+            "romaji": "Saigo dochi de aimashita ka",
+            "chinese": "最後在哪裡見到？"
+          }
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "scene": "mixed",
+      "scene_name": "🎯 混合",
+      "phrases": [
+        {
+          "id": "ja_d12s01",
+          "difficulty": 2,
+          "japanese": "あのう、不好意思、英文は通じませんか",
+          "romaji": "Ano, fushigoshii, eigo wa tsujimasen ka",
+          "chinese": "那個...不好意思，英文可以溝通嗎？",
+          "keywords": [
+            "英文",
+            "不通"
+          ],
+          "grammar_note": "か = 疑問",
+          "native_response": {
+            "japanese": "少し話せます",
+            "romaji": "Sukoshi hanasemasu",
+            "chinese": "我會說一點"
+          }
+        },
+        {
+          "id": "ja_d12s02",
+          "difficulty": 2,
+          "japanese": "寫真を撮っていただけませんか",
+          "romaji": "Shashin wo totte itadakemasen ka",
+          "chinese": "可以幫我拍照嗎？",
+          "keywords": [
+            "写真",
+            "撮る",
+            "いただけ"
+          ],
+          "grammar_note": "いただけませんか = 請求（丁寧）",
+          "native_response": {
+            "japanese": "はい、いいですよ",
+            "romaji": "Hai, ii desu yo",
+            "chinese": "好啊"
+          }
+        },
+        {
+          "id": "ja_d12s03",
+          "difficulty": 2,
+          "japanese": "道を迷いました",
+          "romaji": "Michi wo mayoimashita",
+          "chinese": "我迷路了",
+          "keywords": [
+            "道",
+            "迷う"
+          ],
+          "grammar_note": "ました = 過去",
+          "native_response": {
+            "japanese": "どこに行きたいですか",
+            "romaji": "Doko ni ikitai desu ka",
+            "chinese": "你想去哪裡？"
+          }
+        },
+        {
+          "id": "ja_d12s04",
+          "difficulty": 2,
+          "japanese": "ちょっと幫您一下いただけませんか",
+          "romaji": "Chotto tetsudatte itadakemasen ka",
+          "chinese": "可以請您幫我一下嗎？",
+          "keywords": [
+            "ちょっと",
+            "幫"
+          ],
+          "grammar_note": "ていただけませんか = 請求",
+          "native_response": {
+            "japanese": "はい、何でしょう",
+            "romaji": "Hai, nan desho",
+            "chinese": "好的，什麼事？"
+          }
+        },
+        {
+          "id": "ja_d12s05",
+          "difficulty": 2,
+          "japanese": "私は觀光客です",
+          "romaji": "Watashi wa kankokyakudesu",
+          "chinese": "我是觀光客",
+          "keywords": [
+            "觀光客",
+            "です"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "そうでしたか、有名な所へ行かれましたか",
+            "romaji": "So deshita ka, yumei na tokoro e ikaremashita ka",
+            "chinese": "是嗎，有去著名景點嗎？"
+          }
+        },
+        {
+          "id": "ja_d12s06",
+          "difficulty": 2,
+          "japanese": "どこが有名ですか",
+          "romaji": "Doko ga yumei desu ka",
+          "chinese": "哪裡比較有名？",
+          "keywords": [
+            "どこ",
+            "有名"
+          ],
+          "grammar_note": "が = 主語",
+          "native_response": {
+            "japanese": "迪士尼と富士山都很著名",
+            "romaji": "Disney to Fujisan ga totemo yumei desu",
+            "chinese": "迪士尼和富士山都很著名"
+          }
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "scene": "speed",
+      "scene_name": "⚡ 速度",
+      "phrases": [
+        {
+          "id": "ja_d13s01",
+          "difficulty": 1,
+          "japanese": "はい",
+          "romaji": "Hai",
+          "chinese": "是的",
+          "keywords": [
+            "はい"
+          ],
+          "grammar_note": "はい = 是的",
+          "native_response": {
+            "japanese": "ありがとう",
+            "romaji": "Arigato",
+            "chinese": "謝謝"
+          }
+        },
+        {
+          "id": "ja_d13s02",
+          "difficulty": 1,
+          "japanese": "いいえ",
+          "romaji": "Iie",
+          "chinese": "不是",
+          "keywords": [
+            "いいえ"
+          ],
+          "grammar_note": "いいえ = 不是",
+          "native_response": {
+            "japanese": "そうですか",
+            "romaji": "So desu ka",
+            "chinese": "是嗎"
+          }
+        },
+        {
+          "id": "ja_d13s03",
+          "difficulty": 1,
+          "japanese": "すみません",
+          "romaji": "Sumimasen",
+          "chinese": "不好意思",
+          "keywords": [
+            "すみません"
+          ],
+          "grammar_note": "すみません = 不好意思/借過",
+          "native_response": {
+            "japanese": "はい、何ですか",
+            "romaji": "Hai, nan desu ka",
+            "chinese": "好的，什麼事？"
+          }
+        },
+        {
+          "id": "ja_d13s04",
+          "difficulty": 1,
+          "japanese": "わかりません",
+          "romaji": "Wakarimasen",
+          "chinese": "不明白",
+          "keywords": [
+            "わかりません"
+          ],
+          "grammar_note": "ません = 否定",
+          "native_response": {
+            "japanese": "もう一度お願いします",
+            "romaji": "Mo ichido onegaishimasu",
+            "chinese": "請再說一次"
+          }
+        },
+        {
+          "id": "ja_d13s05",
+          "difficulty": 1,
+          "japanese": "知られています",
+          "romaji": "Sharimashita",
+          "chinese": "知道了",
+          "keywords": [
+            "知る"
+          ],
+          "grammar_note": "ました = 過去",
+          "native_response": {
+            "japanese": "はい",
+            "romaji": "Hai",
+            "chinese": "好的"
+          }
+        },
+        {
+          "id": "ja_d13s06",
+          "difficulty": 1,
+          "japanese": "ちょっと待ってください",
+          "romaji": "Chotto matte kudasai",
+          "chinese": "請稍等",
+          "keywords": [
+            "ちょっと",
+            "待つ"
+          ],
+          "grammar_note": "て = 請求",
+          "native_response": {
+            "japanese": "はい",
+            "romaji": "Hai",
+            "chinese": "好的"
+          }
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "scene": "practice",
+      "scene_name": "🎤 實戰",
+      "phrases": [
+        {
+          "id": "ja_d14s01",
+          "difficulty": 3,
+          "japanese": "もしもし、部屋を変わりましたが、窓側の部屋に変更できますか",
+          "romaji": "Moshimoshi, heya wo kawarimashita ga, mado-gawa no heya ni henen dekimasu ka",
+          "chinese": "喂，我預約了房間，可以換到面向窗戶的房間嗎？",
+          "keywords": [
+            "部屋",
+            "窓側",
+            "変更"
+          ],
+          "grammar_note": "が = 轉折",
+          "native_response": {
+            "japanese": "確認します、少々お待ちください",
+            "romaji": "Kakunin shimasu, shosho omachi kudasai",
+            "chinese": "我確認一下，請稍等"
+          }
+        },
+        {
+          "id": "ja_d14s02",
+          "difficulty": 3,
+          "japanese": "すみません、搭乗時間に間に合わないかもしれませんが",
+          "romaji": "Sumimasen, tojoho jikan ni maiani awanai kamo shiremasen ga",
+          "chinese": "不好意思，可能趕不上登機時間...",
+          "keywords": [
+            "搭乗時間",
+            "間に合わない"
+          ],
+          "grammar_note": "かもしれません = 可能",
+          "native_response": {
+            "japanese": "どれくらいの状況ですか",
+            "romaji": "Dore kurai no jokyo desu ka",
+            "chinese": "現在是什麼情況？"
+          }
+        },
+        {
+          "id": "ja_d14s03",
+          "difficulty": 3,
+          "japanese": "食物にアレルギーがあるので、返品できますか",
+          "romaji": "Tabemono ni areriigi ga aru node, henpin dekimasu ka",
+          "chinese": "我有食物過敏，可以退貨嗎？",
+          "keywords": [
+            "食物",
+            "アレルギー",
+            "退货"
+          ],
+          "grammar_note": "ので = 因為",
+          "native_response": {
+            "japanese": "レシートはお持ちですか",
+            "romaji": "Resshito wa omochi desu ka",
+            "chinese": "請問有收據嗎？"
+          }
+        },
+        {
+          "id": "ja_d14s04",
+          "difficulty": 3,
+          "japanese": "私のコーヒーが気に召しませんが、違うものに変えられますか",
+          "romaji": "Watashi no kohi ga ki ni meshimasen ga, chigau mono ni kaeraremasu ka",
+          "chinese": "我不喜歡我的咖啡，可以換別的嗎？",
+          "keywords": [
+            "コーヒー",
+            "変更"
+          ],
+          "grammar_note": "が = 轉折",
+          "native_response": {
+            "japanese": "はい、何がご希望ですか",
+            "romaji": "Hai, nan ga gokibodesu ka",
+            "chinese": "好的，您想換什麼？"
+          }
+        },
+        {
+          "id": "ja_d14s05",
+          "difficulty": 3,
+          "japanese": "もう一度お願いします",
+          "romaji": "Mo ichido onegaishimasu",
+          "chinese": "請再說一次",
+          "keywords": [
+            "もう",
+            "一度",
+            "お願いします"
+          ],
+          "grammar_note": "もう一度 = 再一次",
+          "native_response": {
+            "japanese": "はい、聞こえました",
+            "romaji": "Hai, kikoemashita",
+            "chinese": "好的，聽到了"
+          }
+        },
+        {
+          "id": "ja_d14s06",
+          "difficulty": 3,
+          "japanese": "クレジットカードで払えますか",
+          "romaji": "Kurejitto kado de haraemasu ka",
+          "chinese": "可以信用卡付款嗎？",
+          "keywords": [
+            "クレジット",
+            "払い"
+          ],
+          "grammar_note": "で = 手段",
+          "native_response": {
+            "japanese": "はい、大丈夫です",
+            "romaji": "Hai, daijobu desu",
+            "chinese": "可以，沒問題"
+          }
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "scene": "final",
+      "scene_name": "🏆 總測試",
+      "phrases": [
+        {
+          "id": "ja_d15s01",
+          "difficulty": 2,
+          "japanese": "日本へようこそ",
+          "romaji": "Nihon e yoko so",
+          "chinese": "歡迎來到日本",
+          "keywords": [
+            "日本",
+            "ようこそ"
+          ],
+          "grammar_note": "へ = 方向",
+          "native_response": {
+            "japanese": "ありがとうございます",
+            "romaji": "Arigato gozaimasu",
+            "chinese": "謝謝"
+          }
+        },
+        {
+          "id": "ja_d15s02",
+          "difficulty": 2,
+          "japanese": "您在日本愉快ですか",
+          "romaji": "Nihon de tanoshii desu ka",
+          "chinese": "在日本愉快嗎？",
+          "keywords": [
+            "日本",
+            "愉快"
+          ],
+          "grammar_note": "で = 在",
+          "native_response": {
+            "japanese": "はい、とても楽しいです",
+            "romaji": "Hai, totemo tanoshii desu",
+            "chinese": "是的，非常開心"
+          }
+        },
+        {
+          "id": "ja_d15s03",
+          "difficulty": 2,
+          "japanese": "日本の何が印象的でしたか",
+          "romaji": "Nihon no nani ga inshote ki data desu ka",
+          "chinese": "日本什麼給你印象最深？",
+          "keywords": [
+            "日本",
+            "印象的"
+          ],
+          "grammar_note": "が = 主語",
+          "native_response": {
+            "japanese": "街の綺麗さと人々の優しさです",
+            "romaji": "Machi no kireisa to hitobito no yasashisa desu",
+            "chinese": "街道的整潔和人們的友善"
+          }
+        },
+        {
+          "id": "ja_d15s04",
+          "difficulty": 2,
+          "japanese": "将来また日本に来たいですか",
+          "romaji": "Shorai mata Nihon ni kitai desu ka",
+          "chinese": "將來還想再來日本嗎？",
+          "keywords": [
+            "将来",
+            "また",
+            "日本"
+          ],
+          "grammar_note": "に = 方向",
+          "native_response": {
+            "japanese": "是非また来たいです",
+            "romaji": "Zehi mata kitai desu",
+            "chinese": "一定還想再來"
+          }
+        },
+        {
+          "id": "ja_d15s05",
+          "difficulty": 2,
+          "japanese": "有何美食推薦ですか",
+          "romaji": "Nani ga osusume no tabemono desu ka",
+          "chinese": "有什麼日本美食推薦？",
+          "keywords": [
+            "美食",
+            "推薦"
+          ],
+          "grammar_note": "で = 在",
+          "native_response": {
+            "japanese": "寿司、ラーメン、牛肉您都可以试试",
+            "romaji": "Sushi, ramen, gyunyu nado minna sugite mite kudasai",
+            "chinese": "寿司、拉麵、牛肉都可以试试"
+          }
+        },
+        {
+          "id": "ja_d15s06",
+          "difficulty": 2,
+          "japanese": "おすすめの遊び處はどこですか",
+          "romaji": "Osusume no asobiba wa doko desu ka",
+          "chinese": "有什麼玩的地方推薦？",
+          "keywords": [
+            "推薦",
+            "遊び處"
+          ],
+          "grammar_note": "は = 主題",
+          "native_response": {
+            "japanese": "浅草、涉谷、原宿都可去看看",
+            "romaji": "Asakusa, Shibuya, Harajuku nado ka mite iku koto wo osusume shimasu",
+            "chinese": "浅草、涉谷、原宿都推薦"
+          }
+        }
+      ]
+    }
+  ]
+}

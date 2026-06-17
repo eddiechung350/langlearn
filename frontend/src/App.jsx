@@ -7,6 +7,8 @@ import Lesson from './pages/Lesson'
 import Practice from './pages/Practice'
 import Review from './pages/Review'
 import Progress from './pages/Progress'
+import Shadowing from './pages/Shadowing'
+import Profile from './pages/Profile'
 
 function ProtectedRoute({ children }) {
   if (!api.isLoggedIn()) {
@@ -44,6 +46,16 @@ function App() {
         <Route path="/progress" element={
           <ProtectedRoute>
             <Progress />
+          </ProtectedRoute>
+        } />
+        <Route path="/shadowing/:day" element={
+          <ProtectedRoute>
+            <Shadowing />
+          </ProtectedRoute>
+        } />
+        <Route path="/profile" element={
+          <ProtectedRoute>
+            <Profile />
           </ProtectedRoute>
         } />
       </Routes>
