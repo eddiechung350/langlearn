@@ -1,0 +1,62 @@
+{
+  "title": "Transportation",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_1001",
+      "japanese": "駅はどこですか？",
+      "romaji": "Eki wa doko desu ka?",
+      "chinese": "車站在哪裡？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1002",
+      "japanese": "切符を一枚ください",
+      "romaji": "Kippu o ichimai kudasai",
+      "chinese": "請給我一張票",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1003",
+      "japanese": "この列車は去哪裡ですか？",
+      "romaji": "Kono ressha wa doko yuki desu ka?",
+      "chinese": "這班車是去哪裡的？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1004",
+      "japanese": "この席、空いていますか？",
+      "romaji": "Kono seki, aite imasu ka?",
+      "chinese": "這個座位空嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1005",
+      "japanese": "○○行きの切符をください",
+      "romaji": "OO yuki no kippu o kudasai",
+      "chinese": "請給我一張去○○的票",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1006",
+      "japanese": "いつに着きますか？",
+      "romaji": "Itsu ni tsukimasu ka?",
+      "chinese": "什麼時候到？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1007",
+      "japanese": "此の駅に止まりますか？",
+      "romaji": "Kono eki ni tomari masu ka?",
+      "chinese": "會在這站停嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1008",
+      "japanese": "が降ります",
+      "romaji": "Ori masu",
+      "chinese": "我要下车",
+      "difficulty": 1
+    }
+  ]
+}

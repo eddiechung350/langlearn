@@ -1,0 +1,62 @@
+{
+  "title": "Asking Directions",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_1101",
+      "japanese": "道に迷いました",
+      "romaji": "Michi ni mayoimashita",
+      "chinese": "我迷路了",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1102",
+      "japanese": "○○への道を教えてください",
+      "romaji": "OO e no michi o oshiete kudasai",
+      "chinese": "請告訴我去○○的路",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1103",
+      "japanese": "近いですか？",
+      "romaji": "Chikai desu ka?",
+      "chinese": "遠嗎？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1104",
+      "japanese": "遠いですか？",
+      "romaji": "Tooi desu ka?",
+      "chinese": "遠嗎？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1105",
+      "japanese": "左に曲がってください",
+      "romaji": "Hidari ni magatte kudasai",
+      "chinese": "請左轉",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1106",
+      "japanese": "右に曲がってください",
+      "romaji": "Migi ni magatte kudasai",
+      "chinese": "請右轉",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1107",
+      "japanese": "まっすぐ行ってください",
+      "romaji": "Massugu itte kudasai",
+      "chinese": "請直走",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1108",
+      "japanese": "ありがとうございます、本当に助かりました",
+      "romaji": "Arigatou gozaimasu, hontoou ni tasukari mashita",
+      "chinese": "非常感謝，你幫了大忙",
+      "difficulty": 2
+    }
+  ]
+}

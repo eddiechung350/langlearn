@@ -1,0 +1,79 @@
+{
+  "day": 2,
+  "title": "Immigration & Customs",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_201",
+      "lesson_day": 2,
+      "japanese": "パスポートをください",
+      "romaji": "Pasupooto o kudasai",
+      "chinese": "請給我護照",
+      "difficulty": 1,
+      "usage_context": "海關官员說的話"
+    },
+    {
+      "id": "jp_202",
+      "lesson_day": 2,
+      "japanese": "何日間滞在しますか？",
+      "romaji": "Nannichikan taizai shimasu ka?",
+      "chinese": "你會停留多少天？",
+      "difficulty": 2,
+      "usage_context": "海關詢問停留天數"
+    },
+    {
+      "id": "jp_203",
+      "lesson_day": 2,
+      "japanese": "観光です",
+      "romaji": "Kankou desu",
+      "chinese": "我是來觀光的",
+      "difficulty": 1,
+      "usage_context": "回答入境目的"
+    },
+    {
+      "id": "jp_204",
+      "lesson_day": 2,
+      "japanese": "保身にあります",
+      "romaji": "Honi ni arimasu",
+      "chinese": "我在這裡住宿",
+      "difficulty": 2,
+      "usage_context": "海關詢問住宿地點"
+    },
+    {
+      "id": "jp_205",
+      "lesson_day": 2,
+      "japanese": "免税店はどこですか？",
+      "romaji": "Menzeiten wa doko desu ka?",
+      "chinese": "免稅店在哪裡？",
+      "difficulty": 2,
+      "usage_context": "機場找免稅店"
+    },
+    {
+      "id": "jp_206",
+      "lesson_day": 2,
+      "japanese": "両替はどこですか？",
+      "romaji": "Ryougae wa doko desu ka?",
+      "chinese": "換錢在哪裡？",
+      "difficulty": 2,
+      "usage_context": "機場找換匯"
+    },
+    {
+      "id": "jp_207",
+      "lesson_day": 2,
+      "japanese": "emberg は何もありません",
+      "romaji": "Nanimo arimasen",
+      "chinese": "我沒有申報物品",
+      "difficulty": 2,
+      "usage_context": "海關申報"
+    },
+    {
+      "id": "jp_208",
+      "lesson_day": 2,
+      "japanese": "ありがとうござました",
+      "romaji": "Arigatou gozaimashita",
+      "chinese": "非常謝謝你 (過去式)",
+      "difficulty": 1,
+      "usage_context": "道謝"
+    }
+  ]
+}

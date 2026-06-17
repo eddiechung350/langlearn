@@ -1,0 +1,62 @@
+{
+  "title": "Shopping",
+  "theme": "shopping",
+  "phrases": [
+    {
+      "id": "jp_901",
+      "japanese": "これはいくらですか？",
+      "romaji": "Kore wa ikura desu ka?",
+      "chinese": "這個多少錢？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_902",
+      "japanese": "クレジットカードは使えますか？",
+      "romaji": "Kurejitto kaado wa tsukaemasu ka?",
+      "chinese": "可以用信用卡嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_903",
+      "japanese": "もう少し安くなりますか？",
+      "romaji": "Mou sukoshi yasuku narimasu ka?",
+      "chinese": "可以便宜一點嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_904",
+      "japanese": "これを包んでください",
+      "romaji": "Kore o tsutsunde kudasai",
+      "chinese": "請幫我包裝這個",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_905",
+      "japanese": "を試着してもいいですか？",
+      "romaji": "Kore o shichaku shite mo ii desu ka?",
+      "chinese": "可以試穿這個嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_906",
+      "japanese": "試衣室はどこですか？",
+      "romaji": "Shiishitsu wa doko desu ka?",
+      "chinese": "試衣間在哪裡？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_907",
+      "japanese": "これをください",
+      "romaji": "Kore o kudasai",
+      "chinese": "我要這個",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_908",
+      "japanese": "助けになりました",
+      "romaji": "Tasukari mashita",
+      "chinese": "謝謝你幫忙",
+      "difficulty": 1
+    }
+  ]
+}

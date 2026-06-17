@@ -1,0 +1,62 @@
+{
+  "title": "Restaurant Basics",
+  "theme": "food",
+  "phrases": [
+    {
+      "id": "jp_501",
+      "japanese": "食事をりたいですが",
+      "romaji": "Shokuji o tabetai desu ga",
+      "chinese": "我想吃飯",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_502",
+      "japanese": "メニューをください",
+      "romaji": "Menyuu o kudasai",
+      "chinese": "請給我菜單",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_503",
+      "japanese": "おすすめは何ですか？",
+      "romaji": "Osusume wa nani desu ka?",
+      "chinese": "推薦什麼？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_504",
+      "japanese": "これをください",
+      "romaji": "Kore o kudasai",
+      "chinese": "請給我這個",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_505",
+      "japanese": "お会計をお願いします",
+      "romaji": "Okaikei o onegaishimasu",
+      "chinese": "我要結帳",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_506",
+      "japanese": "美味しいです",
+      "romaji": "Oishii desu",
+      "chinese": "很好吃",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_507",
+      "japanese": "飲み物をください",
+      "romaji": "Nomimono o kudasai",
+      "chinese": "請給我飲料",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_508",
+      "japanese": "お水はありますか？",
+      "romaji": "Omizu wa arimasu ka?",
+      "chinese": "有水嗎？",
+      "difficulty": 1
+    }
+  ]
+}

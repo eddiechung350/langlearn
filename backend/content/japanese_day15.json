@@ -1,0 +1,62 @@
+{
+  "title": "Comprehensive Practice",
+  "theme": "review",
+  "phrases": [
+    {
+      "id": "jp_1501",
+      "japanese": "本当にありがとうございます",
+      "romaji": "Hontou ni arigatou gozaimasu",
+      "chinese": "真的很感謝你",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1502",
+      "japanese": "助けてくれて、ありがとう",
+      "romaji": "Tasukete kurete, arigatou",
+      "chinese": "謝謝你幫我",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1503",
+      "japanese": "日本の生活に慣れましたか？",
+      "romaji": "Nihon no seikatsu ni narete imasu ka?",
+      "chinese": "你習慣日本生活了嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1504",
+      "japanese": "日本のおすすめは何ですか？",
+      "romaji": "Nihon no osusume wa nani desu ka?",
+      "chinese": "你推薦什麼日本東西？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1505",
+      "japanese": "また来たいです",
+      "romaji": "Mata kitai desu",
+      "chinese": "我想再來",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1506",
+      "japanese": "日本は非常に美しいです",
+      "romaji": "Nihon wa hijou ni utsukushii desu",
+      "chinese": "日本非常美",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1507",
+      "japanese": "美好的思い出になります",
+      "romaji": "Omoide ni narimasu",
+      "chinese": "這將是美好回憶",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1508",
+      "japanese": "さようなら、また来てね",
+      "romaji": "Sayounara, mata kite ne",
+      "chinese": "再見，下次再見",
+      "difficulty": 1
+    }
+  ]
+}

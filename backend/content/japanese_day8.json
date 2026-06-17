@@ -1,0 +1,62 @@
+{
+  "title": "Onsen & Bath",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_801",
+      "japanese": "温泉はありますか？",
+      "romaji": "Onsen wa arimasu ka?",
+      "chinese": "有溫泉嗎？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_802",
+      "japanese": "入場料はいくらですか？",
+      "romaji": "Nyujouhai wa ikura desu ka?",
+      "chinese": "入場費多少？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_803",
+      "japanese": "ここに、貴重品は脫衣所ですか？",
+      "romaji": "Koko ni, keihin wa dokuijo desu ka?",
+      "chinese": "貴重物品在更衣室嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_804",
+      "japanese": "シャワーはどこですか？",
+      "romaji": "Shawaa wa doko desu ka?",
+      "chinese": "淋浴在哪裡？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_805",
+      "japanese": "髪を洗ってもいいですか？",
+      "romaji": "Kami o aratte mo ii desu ka?",
+      "chinese": "可以洗頭嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_806",
+      "japanese": "とても気持ちがいいです",
+      "romaji": "Totemo kimochi ga ii desu",
+      "chinese": "很舒服",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_807",
+      "japanese": "温泉、最高でした",
+      "romaji": "Onsen, saikou deshita",
+      "chinese": "溫泉太棒了",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_808",
+      "japanese": "ありがとうございます",
+      "romaji": "Arigatou gozaimashita",
+      "chinese": "非常感謝（離開時）",
+      "difficulty": 1
+    }
+  ]
+}

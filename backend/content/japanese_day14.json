@@ -1,0 +1,62 @@
+{
+  "title": "Basic Conversation",
+  "theme": "social",
+  "phrases": [
+    {
+      "id": "jp_1401",
+      "japanese": "お名前は？",
+      "romaji": "Onamae wa?",
+      "chinese": "你叫什麼名字？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1402",
+      "japanese": "どこから来ましたか？",
+      "romaji": "Doko kara kimashita ka?",
+      "chinese": "你從哪裡來？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1403",
+      "japanese": "香港から来ました",
+      "romaji": "Honkon kara kimashita",
+      "chinese": "我來自香港",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1404",
+      "japanese": "日本人はですか？",
+      "romaji": "Nihonjin desu ka?",
+      "chinese": "你是日本人嗎？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1405",
+      "japanese": "かわいいです",
+      "romaji": "Kawaii desu",
+      "chinese": "好可愛",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1406",
+      "japanese": "綺麗です",
+      "romaji": "Kirei desu",
+      "chinese": "很漂亮",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1407",
+      "japanese": "美味しい",
+      "romaji": "Oishii",
+      "chinese": "好吃",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1408",
+      "japanese": "楽しかったです",
+      "romaji": "Tanoshikatta desu",
+      "chinese": "很快樂",
+      "difficulty": 1
+    }
+  ]
+}

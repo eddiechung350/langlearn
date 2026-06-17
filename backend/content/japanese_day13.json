@@ -1,0 +1,62 @@
+{
+  "title": "Politeness & Respect",
+  "theme": "culture",
+  "phrases": [
+    {
+      "id": "jp_1301",
+      "japanese": "おはようございます",
+      "romaji": "Ohayou gozaimasu",
+      "chinese": "早上好",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1302",
+      "japanese": "こんにちは",
+      "romaji": "Konnichiwa",
+      "chinese": "你好（白天）",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1303",
+      "japanese": "こんばんは",
+      "romaji": "Konbanwa",
+      "chinese": "晚上好",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1304",
+      "japanese": "お疲れ様です",
+      "romaji": "Otsukaresama desu",
+      "chinese": "辛苦了",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_1305",
+      "japanese": "始めまして",
+      "romaji": "Hajimemashite",
+      "chinese": "初次見面",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1306",
+      "japanese": "私は○○です",
+      "romaji": "Watashi wa OO desu",
+      "chinese": "我是○○",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1307",
+      "japanese": "どうぞよろしく",
+      "romaji": "Douzo yoroshiku",
+      "chinese": "請多多指教",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1308",
+      "japanese": "おじゃましました",
+      "romaji": "Ojama shimashita",
+      "chinese": "打擾了（離開時）",
+      "difficulty": 2
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "day": 1,
+  "title": "Airport & Arrival",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_101",
+      "lesson_day": 1,
+      "japanese": "すみません",
+      "romaji": "Sumimasen",
+      "chinese": "對不起 / 請問",
+      "difficulty": 1,
+      "usage_context": "機場/街上任何場合的開場白"
+    },
+    {
+      "id": "jp_102",
+      "lesson_day": 1,
+      "japanese": "はい",
+      "romaji": "Hai",
+      "chinese": "是 / 好的",
+      "difficulty": 1,
+      "usage_context": "肯定回答"
+    },
+    {
+      "id": "jp_103",
+      "lesson_day": 1,
+      "japanese": "いいえ",
+      "romaji": "Iie",
+      "chinese": "不是 / 不用",
+      "difficulty": 1,
+      "usage_context": "否定回答"
+    },
+    {
+      "id": "jp_104",
+      "lesson_day": 1,
+      "japanese": "ありがとうございます",
+      "romaji": "Arigatou gozaimasu",
+      "chinese": "非常感謝",
+      "difficulty": 1,
+      "usage_context": "正式道謝"
+    },
+    {
+      "id": "jp_105",
+      "lesson_day": 1,
+      "japanese": "お願いします",
+      "romaji": "Onegaishimasu",
+      "chinese": "拜託了 / 請幫幫我",
+      "difficulty": 1,
+      "usage_context": "請求幫助"
+    },
+    {
+      "id": "jp_106",
+      "lesson_day": 1,
+      "japanese": "どこですか？",
+      "romaji": "Doko desu ka?",
+      "chinese": "在哪裡？",
+      "difficulty": 1,
+      "usage_context": "問地方"
+    },
+    {
+      "id": "jp_107",
+      "lesson_day": 1,
+      "japanese": "わかりません",
+      "romaji": "Wakarimasen",
+      "chinese": "我不懂 / 聽不明",
+      "difficulty": 1,
+      "usage_context": "表示不明白"
+    },
+    {
+      "id": "jp_108",
+      "lesson_day": 1,
+      "japanese": "もう一度お願いします",
+      "romaji": "Mou ichido onegaishimasu",
+      "chinese": "請再說一次",
+      "difficulty": 2,
+      "usage_context": "請對方重複"
+    }
+  ]
+}

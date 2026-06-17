@@ -1,0 +1,62 @@
+{
+  "title": "Ordering Food",
+  "theme": "food",
+  "phrases": [
+    {
+      "id": "jp_601",
+      "japanese": "刺身をお願いします",
+      "romaji": "Sashimi o onegaishimasu",
+      "chinese": "請給我刺身",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_602",
+      "japanese": "お茶をください",
+      "romaji": "Ocha o kudasai",
+      "chinese": "請給我茶",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_603",
+      "japanese": "ビールをください",
+      "romaji": "Biiru o kudasai",
+      "chinese": "請給我啤酒",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_604",
+      "japanese": "ご飯をください",
+      "romaji": "Gohan o kudasai",
+      "chinese": "請給我飯",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_605",
+      "japanese": "拉麺をいただきます",
+      "romaji": "Ramen o itadakimasu",
+      "chinese": "我要吃拉麵",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_606",
+      "japanese": "すき焼きをお願いします",
+      "romaji": "Sukiyaki o onegaishimasu",
+      "chinese": "請給我壽喜燒",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_607",
+      "japanese": "あのう...",
+      "romaji": "Anou...",
+      "chinese": "那個...（開場白）",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_608",
+      "japanese": "美味しかったです",
+      "romaji": "Oishikatta desu",
+      "chinese": "很好吃（過去式）",
+      "difficulty": 1
+    }
+  ]
+}

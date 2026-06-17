@@ -1,0 +1,62 @@
+{
+  "title": "Week 1 Review",
+  "theme": "review",
+  "phrases": [
+    {
+      "id": "jp_701",
+      "japanese": "もう一度言ってください",
+      "romaji": "Mou ichido itte kudasai",
+      "chinese": "請再說一次",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_702",
+      "japanese": "ゆっくり言ってください",
+      "romaji": "Yukkuri itte kudasai",
+      "chinese": "請慢慢說",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_703",
+      "japanese": "わかりましたか？",
+      "romaji": "Wakarimashita ka?",
+      "chinese": "你懂了嗎？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_704",
+      "japanese": "すみません、間違いでした",
+      "romaji": "Sumimasen, machigai deshita",
+      "chinese": "對不起，我說錯了",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_705",
+      "japanese": "とても美味しいです",
+      "romaji": "Totemo oishii desu",
+      "chinese": "非常好吃",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_706",
+      "japanese": "満足しました",
+      "romaji": "Manzoku shimashita",
+      "chinese": "我很滿足",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_707",
+      "japanese": "ごちそうさまでした",
+      "romaji": "Gochisousama deshita",
+      "chinese": "感謝款待（吃完說）",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_708",
+      "japanese": "待ってください",
+      "romaji": "Matte kudasai",
+      "chinese": "請等我",
+      "difficulty": 1
+    }
+  ]
+}

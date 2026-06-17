@@ -1,0 +1,62 @@
+{
+  "title": "Hotel Check-in",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_301",
+      "japanese": "チェックインをお願いします",
+      "romaji": "Chekkuin o onegaishimasu",
+      "chinese": "我想辦理入住",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_302",
+      "japanese": "予約があります",
+      "romaji": "Yoyaku ga arimasu",
+      "chinese": "我有預約",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_303",
+      "japanese": "名前を教えてください",
+      "romaji": "Namae o oshiete kudasai",
+      "chinese": "請告訴我你的名字",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_304",
+      "japanese": "在此です",
+      "romaji": "Kochira desu",
+      "chinese": "是這裡",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_305",
+      "japanese": "部屋に鍵はありませんか？",
+      "romaji": "Heya ni kagi wa arimasen ka?",
+      "chinese": "房間鑰匙在嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_306",
+      "japanese": "Wi-Fiのパスワードをください",
+      "romaji": "Wi-Fi no pasuwaado o kudasai",
+      "chinese": "請給我Wi-Fi密碼",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_307",
+      "japanese": "朝食は含まれていますか？",
+      "romaji": "Choushoku wa fukumarete imasu ka?",
+      "chinese": "包含早餐嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_308",
+      "japanese": "荷物を置いてもいいですか？",
+      "romaji": "Nimotsu o oite mo ii desu ka?",
+      "chinese": "可以放行李嗎？",
+      "difficulty": 2
+    }
+  ]
+}

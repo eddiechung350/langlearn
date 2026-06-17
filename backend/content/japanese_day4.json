@@ -1,0 +1,62 @@
+{
+  "title": "Hotel Services",
+  "theme": "travel",
+  "phrases": [
+    {
+      "id": "jp_401",
+      "japanese": "部屋を掃除してもらえますか？",
+      "romaji": "Heya o souji shite moraemasu ka?",
+      "chinese": "可以幫我打掃房間嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_402",
+      "japanese": "タオルをもらえますか？",
+      "romaji": "Taoru o moraemasu ka?",
+      "chinese": "可以給我毛巾嗎？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_403",
+      "japanese": "エアコンを調節してくれませんか？",
+      "romaji": "Eakon o chousetsu shite kuremasen ka?",
+      "chinese": "可以幫我調冷氣嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_404",
+      "japanese": "クリーニングをお願いします",
+      "romaji": "Kuriiningu o onegaishimasu",
+      "chinese": "我想送洗衣服",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_405",
+      "japanese": "何を着ればいいですか？",
+      "romaji": "Nani o kireba ii desu ka?",
+      "chinese": "我應該穿什麼？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_406",
+      "japanese": "チェックアウトは何時ですか？",
+      "romaji": "Chekkuauto wa nanji desu ka?",
+      "chinese": "退房時間是幾點？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_407",
+      "japanese": "タクシーを呼んでもらえますか？",
+      "romaji": "Takushii o yonde moraemasu ka?",
+      "chinese": "可以幫我叫計程車嗎？",
+      "difficulty": 2
+    },
+    {
+      "id": "jp_408",
+      "japanese": "荷物を預けられますか？",
+      "romaji": "Nimotsu o azukete moraemasu ka?",
+      "chinese": "可以幫我寄存行李嗎？",
+      "difficulty": 2
+    }
+  ]
+}

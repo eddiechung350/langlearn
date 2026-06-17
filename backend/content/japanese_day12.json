@@ -1,0 +1,62 @@
+{
+  "title": "Emergencies",
+  "theme": "emergency",
+  "phrases": [
+    {
+      "id": "jp_1201",
+      "japanese": "助けて！",
+      "romaji": "Tasukete!",
+      "chinese": "救命！",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1202",
+      "japanese": "救急車を呼んでください",
+      "romaji": "Kyuukyuusha o yonde kudasai",
+      "chinese": "請叫救護車",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1203",
+      "japanese": "警察を呼んでください",
+      "romaji": "Keisatsu o yonde kudasai",
+      "chinese": "請叫警察",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1204",
+      "japanese": "病院はどこですか？",
+      "romaji": "Byouin wa doko desu ka?",
+      "chinese": "醫院在哪裡？",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1205",
+      "japanese": "頭が痛です",
+      "romaji": "Atama ga itai desu",
+      "chinese": "我頭痛",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1206",
+      "japanese": "おなかが痛です",
+      "romaji": "Onaka ga itai desu",
+      "chinese": "我肚子痛",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1207",
+      "japanese": "藥を落としました",
+      "romaji": "Kusuri o otoshimashita",
+      "chinese": "我弄掉了藥",
+      "difficulty": 1
+    },
+    {
+      "id": "jp_1208",
+      "japanese": "日本語ができません",
+      "romaji": "Nihongo ga dekimasen",
+      "chinese": "我不會說日語",
+      "difficulty": 1
+    }
+  ]
+}
