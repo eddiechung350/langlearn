@@ -37,16 +37,46 @@ export default function Practice() {
     }
   }
 
-  const playPhrase = () => {
+  const playPhrase = async () => {
     if (!phrase) return
-    if ('speechSynthesis' in window) {
-      setPlayingPhrase(true)
-      const utterance = new SpeechSynthesisUtterance(phrase.japanese)
-      utterance.lang = 'ja-JP'
-      utterance.rate = 0.7
-      utterance.onend = () => setPlayingPhrase(false)
-      window.speechSynthesis.cancel()
-      window.speechSynthesis.speak(utterance)
+    setPlayingPhrase(true)
+    try {
+      // Try Web Speech API first if Japanese voice available
+      if ('speechSynthesis' in window) {
+        const voices = window.speechSynthesis.getVoices()
+        const jaVoice = voices.find(v => v.lang.startsWith('ja'))
+        if (jaVoice) {
+          const utterance = new SpeechSynthesisUtterance(phrase.japanese)
+          utterance.lang = 'ja-JP'
+          utterance.voice = jaVoice
+          utterance.rate = 0.7
+          utterance.onend = () => setPlayingPhrase(false)
+          window.speechSynthesis.cancel()
+          window.speechSynthesis.speak(utterance)
+          return
+        }
+      }
+      // Fallback: backend TTS
+      const token = localStorage.getItem('langlearn_token')
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/tts`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        },
+        body: JSON.stringify({ text: phrase.japanese, voice: 'ja-JP-NanamiNeural' }),
+      })
+      if (res.ok) {
+        const data = await res.json()
+        const audio = new Audio(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}${data.audio_url}`)
+        audio.onended = () => setPlayingPhrase(false)
+        await audio.play()
+      } else {
+        setPlayingPhrase(false)
+      }
+    } catch (err) {
+      console.error('Play error:', err)
+      setPlayingPhrase(false)
     }
   }
 

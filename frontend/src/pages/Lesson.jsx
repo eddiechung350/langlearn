@@ -37,13 +37,34 @@ export default function Lesson() {
   const playAudio = async (text, language = 'ja') => {
     setAudioLoading(true)
     try {
-      // Use Web Speech API as fallback (browser native, no server needed)
+      // Try Web Speech API first (no server needed)
       if ('speechSynthesis' in window) {
-        const utterance = new SpeechSynthesisUtterance(text)
-        utterance.lang = language === 'ja' ? 'ja-JP' : language === 'fr' ? 'fr-FR' : 'es-ES'
-        utterance.rate = 0.8
-        window.speechSynthesis.cancel()
-        window.speechSynthesis.speak(utterance)
+        const voices = window.speechSynthesis.getVoices()
+        const jaVoice = voices.find(v => v.lang.startsWith('ja'))
+        if (jaVoice) {
+          const utterance = new SpeechSynthesisUtterance(text)
+          utterance.lang = 'ja-JP'
+          utterance.voice = jaVoice
+          utterance.rate = 0.8
+          window.speechSynthesis.cancel()
+          window.speechSynthesis.speak(utterance)
+          setAudioLoading(false)
+          return
+        }
+      }
+      // Fallback: call backend TTS
+      const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/tts`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${localStorage.getItem('langlearn_token')}`,
+        },
+        body: JSON.stringify({ text, voice: 'ja-JP-NanamiNeural' }),
+      })
+      if (res.ok) {
+        const data = await res.json()
+        const audio = new Audio(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}${data.audio_url}`)
+        await audio.play()
       }
     } catch (err) {
       console.error('Audio error:', err)

@@ -10,7 +10,7 @@ import asyncio
 from datetime import datetime, date, timedelta
 from functools import wraps
 
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, send_from_directory
 from flask_cors import CORS
 
 from models import db, User, Phrase, UserProgress, init_db
@@ -372,22 +372,13 @@ def generate_tts():
     
     # Run edge-tts
     try:
-        import platform
-        if platform.system() == 'Windows':
-            subprocess.run([
-                'edge-tts',
-                '--text', text,
-                '--voice', voice,
-                '--write-media', filepath
-            ], check=True, capture_output=True)
-        else:
-            subprocess.run([
-                'edge-tts',
-                '--text', text,
-                '--voice', voice,
-                '--write-media', filepath
-            ], check=True, capture_output=True, shell=False)
-        
+        subprocess.run([
+            'python3', '-m', 'edge_tts',
+            '--text', text,
+            '--voice', voice,
+            '--write-media', filepath
+        ], check=True, capture_output=True, shell=False)
+
         audio_url = f'/static/audio/{filename}'
         return jsonify({'audio_url': audio_url, 'text': text})
     
@@ -428,6 +419,20 @@ def seed_database():
     
     return jsonify({'message': f'Seeded {count} phrases'})
 
+
+# ─── Frontend Static Files (React App) ──────────────────────────
+FRONTEND_DIST = os.path.join(os.path.dirname(__file__), '..', 'frontend', 'dist')
+
+@app.route('/')
+def serve_frontend():
+    return send_from_directory(FRONTEND_DIST, 'index.html')
+
+@app.route('/<path:filename>')
+def serve_static(filename):
+    target = os.path.join(FRONTEND_DIST, filename)
+    if os.path.exists(target):
+        return send_from_directory(FRONTEND_DIST, filename)
+    return send_from_directory(FRONTEND_DIST, 'index.html')
 
 # ─── Error Handlers ────────────────────────────────────────────
 
