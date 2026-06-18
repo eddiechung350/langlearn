@@ -109,6 +109,10 @@ export const api = {
 
   // Health
   health: async () => request('/health'),
+
+  // Generic methods used by pages
+  get: (endpoint) => request(endpoint),
+  post: (endpoint, data) => request(endpoint, { method: 'POST', body: JSON.stringify(data) }),
 };
 
 // Groq Whisper

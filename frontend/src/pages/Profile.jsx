@@ -17,15 +17,15 @@ export default function Profile() {
   useEffect(() => {
     const load = async () => {
       try {
-        const userRes = await api.get('/api/auth/me')
+        const userRes = await api.get('/auth/me')
         setUser(userRes.user)
-        const progRes = await api.get('/api/progress?language=ja')
+        const progRes = await api.get('/progress?language=ja')
         setStats(progRes.stats)
-        const achRes = await api.get('/api/achievements')
+        const achRes = await api.get('/achievements')
         setAchievements(achRes.achievements || [])
-        const dailyRes = await api.get('/api/daily-stats')
+        const dailyRes = await api.get('/daily-stats')
         setDailyStats(dailyRes.stats || [])
-        const lbRes = await api.get('/api/leaderboard')
+        const lbRes = await api.get('/leaderboard')
         setLeaderboard(lbRes.leaderboard || [])
       } catch (e) {
         console.error(e)

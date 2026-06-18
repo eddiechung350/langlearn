@@ -38,7 +38,7 @@ export default function Shadowing({ language = 'ja' }) {
       setLoading(false)
     }).catch(() => {
       // fallback: load from API
-      api.get(`/api/${lang || 'ja'}/content`).then(d => {
+      api.get(`/${lang || 'ja'}/content`).then(d => {
         const dayData = (d.days || []).find(x => x.day === parseInt(day || 1))
         if (dayData) {
           setContent(dayData)
@@ -148,7 +148,7 @@ export default function Shadowing({ language = 'ja' }) {
     setSaving(true)
     const sm2Rating = finalScore >= 85 ? 4 : finalScore >= 70 ? 3 : finalScore >= 50 ? 2 : 1
     try {
-      const res = await api.post('/api/save-result', {
+      const res = await api.post('/save-result', {
         phrase_id: phrase.id,
         language: phrase.language || 'ja',
         score: finalScore,

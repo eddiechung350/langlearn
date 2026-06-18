@@ -20,24 +20,24 @@ export default function Home() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const userRes = await api.get('/api/auth/me')
+        const userRes = await api.get('/auth/me')
         setUser(userRes.user)
 
         // Load all languages
-        const langRes = await api.get('/api/languages')
+        const langRes = await api.get('/languages')
         setLanguages(langRes.languages)
 
         // Load progress
-        const progRes = await api.get(`/api/progress?language=${selectedLang}`)
+        const progRes = await api.get(`/progress?language=${selectedLang}`)
         setStats(progRes.stats)
         setAchievements(progRes.achievements || [])
 
         // Load daily stats
-        const dailyRes = await api.get('/api/daily-stats')
+        const dailyRes = await api.get('/daily-stats')
         setDailyStats(dailyRes.stats || [])
 
         // Load content for selected language
-        const contRes = await api.get(`/api/${selectedLang}/content`)
+        const contRes = await api.get(`/${selectedLang}/content`)
         setContent(contRes)
       } catch (e) {
         console.error('Load error', e)

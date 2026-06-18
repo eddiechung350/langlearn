@@ -34,7 +34,7 @@ def token_required(f):
 def register():
     from models import create_user, get_user_by_username
     data = request.get_json()
-    username = data.get('username', '').strip()
+    username = data.get('username', '') or data.get('name', ''); username = username.strip() if username else ''
     password = data.get('password', '')
     if len(username) < 3:
         return jsonify({'error': '用户名最少3个字'}), 400
@@ -55,7 +55,7 @@ def register():
 def login():
     from models import get_user_by_username
     data = request.get_json()
-    username = data.get('username', '').strip()
+    username = data.get('username', '') or data.get('name', ''); username = username.strip() if username else ''
     password = data.get('password', '')
     user = get_user_by_username(username)
     if not user:

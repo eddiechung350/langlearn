@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 
 def create_app():
-    app = Flask(__name__, static_folder='../frontend/dist', static_url_path='')
+    app = Flask(__name__, static_folder=None, static_url_path='')
     CORS(app)
 
     # Register blueprints
@@ -18,14 +18,14 @@ def create_app():
 
     @app.route('/')
     def index():
-        return send_from_directory(app.static_folder, 'index.html')
+        dist='/root/.openclaw/workspace/user-instances/user2/data/workspace/langlearn/frontend/dist'; return send_from_directory(dist, 'index.html')
 
     @app.route('/<path:path>')
     def static_files(path):
-        file_path = os.path.join(app.static_folder, path)
+        dist='/root/.openclaw/workspace/user-instances/user2/data/workspace/langlearn/frontend/dist'; file_path = os.path.join(dist, path)
         if os.path.exists(file_path):
-            return send_from_directory(app.static_folder, path)
-        return send_from_directory(app.static_folder, 'index.html')
+            return send_from_directory(dist, path)
+        dist='/root/.openclaw/workspace/user-instances/user2/data/workspace/langlearn/frontend/dist'; return send_from_directory(dist, 'index.html')
 
     @app.route('/api/tts/<language>/<phrase_id>')
     def tts_proxy(language, phrase_id):

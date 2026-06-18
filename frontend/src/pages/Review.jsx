@@ -17,7 +17,7 @@ export default function Review() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    api.get('/api/review?limit=10').then(d => {
+    api.get('/review?limit=10').then(d => {
       setPhrases(d.phrases || [])
       setLoading(false)
     }).catch(() => setLoading(false))
@@ -85,7 +85,7 @@ export default function Review() {
     if (phase === 'score' && score > 0) {
       setSaving(true)
       const rating = score >= 85 ? 4 : score >= 70 ? 3 : score >= 50 ? 2 : 1
-      api.post('/api/save-result', {
+      api.post('/save-result', {
         phrase_id: phrase.id,
         language: phrase.language || 'ja',
         score,

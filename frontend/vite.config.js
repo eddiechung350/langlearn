@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react'
 
 // VITE_API_URL = full backend URL (e.g. https://langlearn-backend.onrender.com)
 // api.js will append /api to this
-const API_URL = process.env.VITE_API_URL || 'http://localhost:5000'
+const API_URL = process.env.VITE_API_URL || 'https://c3nexus.cloud/learning'
 
 export default defineConfig({
   plugins: [react()],
   define: {
     'import.meta.env.VITE_API_URL': JSON.stringify(API_URL),
   },
+  base: '/learning/',
   server: {
     proxy: {
       '/api': {
@@ -19,7 +20,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'dist',
+    outDir: 'dist2',
     sourcemap: false,
   },
 })
