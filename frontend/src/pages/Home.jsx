@@ -15,10 +15,13 @@ export default function Home() {
   const [languages, setLanguages] = useState([])
   const [selectedLang, setSelectedLang] = useState('ja')
   const [content, setContent] = useState(null)
+  const [contentError, setContentError] = useState(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     const loadData = async () => {
+      setLoading(true)
+      setContentError(null)
       try {
         const userRes = await api.get('/auth/me')
         setUser(userRes.user)
@@ -41,6 +44,7 @@ export default function Home() {
         setContent(contRes)
       } catch (e) {
         console.error('Load error', e)
+        setContentError(e.message || '無法載入課程內容')
       }
       setLoading(false)
     }
@@ -123,25 +127,44 @@ export default function Home() {
       </div>
 
       {/* Scene/Day Grid */}
-      <div className="section-title">
-        📅 學習場景 — {LANG_NAME[selectedLang]}
-      </div>
-      <div className="scene-grid">
-        {content?.days?.map(day => (
-          <button
-            key={day.day}
-            className="scene-card"
-            onClick={() => navigate(`/shadowing/${day.day}?lang=${selectedLang}`)}
-          >
-            <div className="scene-icon">{day.scene_name?.match(/[\p{Emoji}]/u)?.[0] || '📚'}</div>
-            <div className="scene-info">
-              <div className="scene-day">Day {day.day}</div>
-              <div className="scene-name">{day.scene_name}</div>
-              <div className="scene-count">{day.phrases.length} 句</div>
-            </div>
+      <div className="section-title">📅 學習場景 — {LANG_NAME[selectedLang]}</div>
+
+      {contentError ? (
+        /* Error state */
+        <div className="error-card">
+          <div className="error-icon">⚠️</div>
+          <div className="error-msg">{contentError}</div>
+          <button className="retry-btn" onClick={() => setSelectedLang(selectedLang)}>重試</button>
+        </div>
+      ) : !content?.days?.length ? (
+        /* Empty state - show big Start CTA */
+        <div className="start-cta">
+          <div className="cta-icon">🚀</div>
+          <div className="cta-title">準備好開始學習了！</div>
+          <div className="cta-sub">揀「日本語」然後點擊下方按鈕開始第一課</div>
+          <button className="start-btn" onClick={() => navigate(`/shadowing/1?lang=${selectedLang}`)}>
+            ▶ 開始 Day 1 — 第一課
           </button>
-        ))}
-      </div>
+        </div>
+      ) : (
+        /* Normal scene grid */
+        <div className="scene-grid">
+          {content.days.map(day => (
+            <button
+              key={day.day}
+              className="scene-card"
+              onClick={() => navigate(`/shadowing/${day.day}?lang=${selectedLang}`)}
+            >
+              <div className="scene-icon">{day.scene_name?.match(/[\p{Emoji}]/u)?.[0] || '📚'}</div>
+              <div className="scene-info">
+                <div className="scene-day">Day {day.day}</div>
+                <div className="scene-name">{day.scene_name}</div>
+                <div className="scene-count">{day.phrases.length} 句</div>
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Quick Actions */}
       <div className="quick-actions">
@@ -204,6 +227,16 @@ export default function Home() {
         .scene-day { font-size: 11px; color: #9ca3af; }
         .scene-name { font-size: 14px; font-weight: 600; color: #1e1e2e; }
         .scene-count { font-size: 12px; color: #6b7280; }
+        .start-cta { background: linear-gradient(135deg, #6366f1, #8b5cf6); border-radius: 20px; padding: 32px 24px; text-align: center; color: white; margin-bottom: 20px; }
+        .cta-icon { font-size: 48px; margin-bottom: 12px; }
+        .cta-title { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+        .cta-sub { font-size: 14px; opacity: 0.85; margin-bottom: 20px; }
+        .start-btn { background: white; color: #6366f1; border: none; border-radius: 12px; padding: 14px 28px; font-size: 16px; font-weight: 700; cursor: pointer; transition: transform 0.2s; }
+        .start-btn:hover { transform: scale(1.05); }
+        .error-card { background: #fef2f2; border: 1px solid #fecaca; border-radius: 14px; padding: 24px; text-align: center; margin-bottom: 20px; }
+        .error-icon { font-size: 32px; margin-bottom: 8px; }
+        .error-msg { color: #dc2626; font-size: 14px; margin-bottom: 12px; }
+        .retry-btn { background: #6366f1; color: white; border: none; border-radius: 8px; padding: 8px 20px; font-size: 14px; font-weight: 600; cursor: pointer; }
         .quick-actions { display: flex; gap: 10px; margin-bottom: 20px; }
         .quick-btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 14px; border-radius: 12px; text-decoration: none; font-weight: 600; font-size: 14px; color: white; transition: transform 0.2s; }
         .quick-btn:hover { transform: scale(1.02); }
