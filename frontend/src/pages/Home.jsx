@@ -90,16 +90,34 @@ export default function Home() {
 
       {/* Language Selector */}
       <div className="lang-selector">
-        {languages.map(l => (
-          <button
-            key={l.code}
-            className={`lang-btn ${selectedLang === l.code ? 'active' : ''}`}
-            onClick={() => setSelectedLang(l.code)}
-          >
-            <span className="lang-flag">{l.flag}</span>
-            <span className="lang-name">{l.name}</span>
-          </button>
-        ))}
+        <button
+          key="ja"
+          className={`lang-btn ${selectedLang === 'ja' ? 'active' : ''}`}
+          onClick={() => setSelectedLang('ja')}
+        >
+          <span className="lang-flag">🗾</span>
+          <span className="lang-name">日本語</span>
+        </button>
+        <button
+          key="fr"
+          className="lang-btn locked"
+          onClick={() => {}}
+          title="即將推出"
+        >
+          <span className="lang-flag">🇫🇷</span>
+          <span className="lang-name">Français</span>
+          <span className="lang-soon">🚧 籌備中</span>
+        </button>
+        <button
+          key="it"
+          className="lang-btn locked"
+          onClick={() => {}}
+          title="即將推出"
+        >
+          <span className="lang-flag">🇮🇹</span>
+          <span className="lang-name">Italiano</span>
+          <span className="lang-soon">🚧 籌備中</span>
+        </button>
       </div>
 
       {/* Today's Goal */}
@@ -209,6 +227,8 @@ export default function Home() {
         .lang-selector { display: flex; gap: 8px; margin-bottom: 16px; }
         .lang-btn { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 12px 8px; border-radius: 12px; border: 2px solid #e5e7eb; background: white; cursor: pointer; transition: all 0.2s; }
         .lang-btn.active { border-color: #6366f1; background: #eef2ff; }
+        .lang-btn.locked { opacity: 0.6; cursor: not-allowed; border-color: #e5e7eb; background: #f9fafb; }
+        .lang-soon { font-size: 10px; color: #9ca3af; margin-top: 2px; }
         .lang-flag { font-size: 24px; }
         .lang-name { font-size: 12px; font-weight: 600; color: #374151; }
         .goal-card { background: white; border-radius: 16px; padding: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 20px; }
